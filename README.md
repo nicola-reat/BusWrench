@@ -46,8 +46,8 @@ frames.
 
 The firmware of each board lives in its own repository:
 
-- CAN_GAUGE: `https://github.com/<your-user>/can_gauge`
-- CAN_PDM: `https://github.com/<your-user>/can_pdm`
+- CAN_GAUGE: `https://github.com/nicola-reat/can_gauge`
+- CAN_PDM: `https://github.com/nicola-reat/can_pdm`
 
 ## How it works
 
