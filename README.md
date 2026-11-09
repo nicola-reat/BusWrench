@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/buswrench-logo.svg" alt="BusWrench" width="480">
+  <img src="Assets/buswrench-logo-dark.png" alt="BusWrench" width="480">
 </p>
 
 <p align="center">
