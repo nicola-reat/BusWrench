@@ -1,0 +1,15 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                    ],
+                    "filePath": "C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/compat/Extras/QulPerf.qml"
+                }
+            ],
+            "moduleId": "QtQuickUltralite.Extras(QuickUltraLiteStudioExtras)"
+        }
+    ]
+}

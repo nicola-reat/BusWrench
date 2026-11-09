@@ -1,0 +1,4078 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "BusWrenchApp.exe"
+		},
+		{
+			"path" : "BusWrenchApp.pdb"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_directories",
+			"target_link_libraries",
+			"__qt_internal_propagate_object_files",
+			"__qt_internal_propagate_object_library",
+			"qt6_add_qml_module",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt6_target_qml_sources",
+			"_qt_internal_add_shaders_impl",
+			"qt6_add_shaders",
+			"include",
+			"qt6_import_qml_plugins",
+			"cmake_language",
+			"_qt_internal_finalize_executable",
+			"qt6_finalize_target",
+			"set_target_properties",
+			"find_package",
+			"qt6_add_qml_plugin",
+			"register_plugin",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"add_dependencies",
+			"_qt_internal_scan_qml_imports",
+			"_qt_internal_generate_deploy_qml_imports_script",
+			"target_include_directories",
+			"target_sources",
+			"qt_add_resources",
+			"_qt_internal_expose_deferred_files_to_ide",
+			"_qt_internal_finalize_windows_app"
+		],
+		"files" : 
+		[
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"BusWrench/CMakeLists.txt",
+			"BusWrenchContent/CMakeLists.txt",
+			"Dependencies/Components/imports/application/CMakeLists.txt",
+			"Dependencies/Components/imports/tools/eventsimulator/CMakeLists.txt",
+			"Dependencies/Components/imports/tools/eventsystem/CMakeLists.txt",
+			"Dependencies/Components/imports/components/CMakeLists.txt",
+			"Dependencies/Components/imports/compat/Extras/CMakeLists.txt",
+			"Dependencies/Components/imports/flowview/CMakeLists.txt",
+			"Dependencies/Components/imports/utils/CMakeLists.txt",
+			"Dependencies/Components/imports/compat/Components/CMakeLists.txt",
+			"Dependencies/Components/imports/compat/Layers/CMakeLists.txt",
+			"Dependencies/Components/imports/compat/Profiling/CMakeLists.txt",
+			"Dependencies/Components/imports/designeffects/CMakeLists.txt",
+			"Dependencies/Components/imports/effects_qt6/CMakeLists.txt",
+			"Dependencies/Components/imports/logichelper/CMakeLists.txt",
+			"Dependencies/Components/imports/multitext/CMakeLists.txt",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsMacros.cmake",
+			"App/CMakeLists.txt",
+			"qds.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:961:EVAL",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
+			"C:/Git/BusWrench/GUI/BusWrenchApp-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
+			"Dependencies/Components/CMakeLists.txt",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
+			"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6SerialBus/Qt6SerialBusTargets.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6SerialBus/Qt6SerialBusConfig.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1115,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 687,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 780,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 12,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 10
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 7,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 15
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 2,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 18
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 19
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 20
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 7,
+				"parent" : 22
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 24
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 25
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 7,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 29
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 30
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 2,
+				"parent" : 32
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 33
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 34
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 35
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 9,
+				"file" : 9,
+				"line" : 7,
+				"parent" : 37
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 38
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 39
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 40
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 10,
+				"line" : 7,
+				"parent" : 42
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 43
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 44
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 45
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 9,
+				"file" : 11,
+				"line" : 2,
+				"parent" : 47
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 48
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 49
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 50
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 8
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 52
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 53
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 54
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 55
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 56
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 8
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 58
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 59
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 60
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 61
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 62
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 63
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 13
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 65
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 66
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 67
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 68
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 69
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 13
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 71
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 72
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 73
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 74
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 75
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 76
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4110,
+				"parent" : 71
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 78
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 79
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 80
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 81
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 82
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 12,
+				"line" : 2,
+				"parent" : 84
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 85
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 86
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 87
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 13,
+				"line" : 2,
+				"parent" : 89
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 90
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 91
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 92
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 9,
+				"file" : 14,
+				"line" : 2,
+				"parent" : 94
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 95
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 96
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 97
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 15,
+				"line" : 2,
+				"parent" : 99
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 100
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 101
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 102
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 9,
+				"file" : 16,
+				"line" : 2,
+				"parent" : 104
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 105
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 106
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 107
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 9,
+				"file" : 17,
+				"line" : 2,
+				"parent" : 109
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 110
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 111
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 112
+			},
+			{
+				"file" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 18,
+				"line" : 2,
+				"parent" : 114
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 115
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 116
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 117
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 18
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 119
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 120
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 121
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 122
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 123
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 23
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 125
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 126
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 127
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 128
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 129
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 23
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 131
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 132
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 133
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 134
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 135
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 136
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 28
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 138
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 139
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 140
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 141
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 142
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 28
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 144
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 145
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 146
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 147
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 148
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 149
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 33
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 151
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 152
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 153
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 154
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 155
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 33
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 157
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 158
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 159
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 160
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 161
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 162
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 38
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 164
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 165
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 166
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 167
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 168
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 38
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 170
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 171
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 172
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 173
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 174
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 175
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 43
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 177
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 178
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 179
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 180
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 181
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 182
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4110,
+				"parent" : 177
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 184
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 185
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 186
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 187
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 188
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 48
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 190
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 191
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 192
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 193
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 194
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 48
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 196
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 197
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 198
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 199
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 200
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 201
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 85
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 203
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 204
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 205
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 206
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 207
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 85
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 209
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 210
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 211
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 212
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 213
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 214
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 90
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 216
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 217
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 218
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 219
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 220
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 90
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 222
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 223
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 224
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 225
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 226
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 227
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4146,
+				"parent" : 222
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 229
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 230
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 231
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 232
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 233
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 95
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 235
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 236
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 237
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 238
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 239
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 95
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 241
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 242
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 243
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 244
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 245
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 246
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 100
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 248
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 249
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 250
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 251
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 252
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 100
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 254
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 255
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 256
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 257
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 258
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 259
+			},
+			{
+				"command" : 15,
+				"file" : 15,
+				"line" : 25,
+				"parent" : 99
+			},
+			{
+				"command" : 14,
+				"file" : 19,
+				"line" : 408,
+				"parent" : 261
+			},
+			{
+				"command" : 12,
+				"file" : 19,
+				"line" : 392,
+				"parent" : 262
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 263
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 264
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 265
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 266
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 267
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 105
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 269
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 270
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 271
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 272
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 273
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 105
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 275
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 276
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 277
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 278
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 279
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 280
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 110
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 282
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 283
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 284
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 285
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 286
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 110
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 288
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 289
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 290
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 291
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 292
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 293
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 115
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 295
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 296
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 297
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 298
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 299
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 115
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 301
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 302
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 303
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 2280,
+				"parent" : 304
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2207,
+				"parent" : 305
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2155,
+				"parent" : 306
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"file" : 20
+			},
+			{
+				"command" : 6,
+				"file" : 20,
+				"line" : 6,
+				"parent" : 309
+			},
+			{
+				"command" : 16,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"file" : 21,
+				"parent" : 311
+			},
+			{
+				"command" : 6,
+				"file" : 21,
+				"line" : 9,
+				"parent" : 312
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 20,
+				"file" : 22,
+				"line" : 1,
+				"parent" : 315
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 915,
+				"parent" : 316
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 832,
+				"parent" : 317
+			},
+			{
+				"command" : 17,
+				"file" : 0,
+				"line" : 832,
+				"parent" : 318
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 5057,
+				"parent" : 319
+			},
+			{
+				"command" : 22,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 22,
+				"file" : 25,
+				"line" : 315,
+				"parent" : 321
+			},
+			{
+				"file" : 24,
+				"parent" : 322
+			},
+			{
+				"command" : 16,
+				"file" : 24,
+				"line" : 55,
+				"parent" : 323
+			},
+			{
+				"file" : 23,
+				"parent" : 324
+			},
+			{
+				"command" : 21,
+				"file" : 23,
+				"line" : 61,
+				"parent" : 325
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 327
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 13
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 329
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 331
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 333
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 28
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 335
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 33
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 337
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 38
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 339
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 43
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 341
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 48
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 343
+			},
+			{
+				"command" : 24,
+				"file" : 12,
+				"line" : 14,
+				"parent" : 84
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 6,
+				"parent" : 345
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 85
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 347
+			},
+			{
+				"command" : 24,
+				"file" : 13,
+				"line" : 19,
+				"parent" : 89
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 6,
+				"parent" : 349
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 90
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 351
+			},
+			{
+				"command" : 24,
+				"file" : 14,
+				"line" : 14,
+				"parent" : 94
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 6,
+				"parent" : 353
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 95
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 355
+			},
+			{
+				"command" : 22,
+				"file" : 25,
+				"line" : 315,
+				"parent" : 321
+			},
+			{
+				"file" : 28,
+				"parent" : 357
+			},
+			{
+				"command" : 16,
+				"file" : 28,
+				"line" : 55,
+				"parent" : 358
+			},
+			{
+				"file" : 27,
+				"parent" : 359
+			},
+			{
+				"command" : 21,
+				"file" : 27,
+				"line" : 61,
+				"parent" : 360
+			},
+			{
+				"command" : 24,
+				"file" : 15,
+				"line" : 40,
+				"parent" : 99
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 6,
+				"parent" : 362
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 100
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 364
+			},
+			{
+				"command" : 24,
+				"file" : 16,
+				"line" : 63,
+				"parent" : 104
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 6,
+				"parent" : 366
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 105
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 368
+			},
+			{
+				"command" : 24,
+				"file" : 17,
+				"line" : 19,
+				"parent" : 109
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 6,
+				"parent" : 370
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 110
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 372
+			},
+			{
+				"command" : 24,
+				"file" : 18,
+				"line" : 16,
+				"parent" : 114
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 6,
+				"parent" : 374
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 115
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3173,
+				"parent" : 376
+			},
+			{
+				"command" : 22,
+				"file" : 25,
+				"line" : 315,
+				"parent" : 321
+			},
+			{
+				"file" : 30,
+				"parent" : 378
+			},
+			{
+				"command" : 16,
+				"file" : 30,
+				"line" : 58,
+				"parent" : 379
+			},
+			{
+				"file" : 29,
+				"parent" : 380
+			},
+			{
+				"command" : 21,
+				"file" : 29,
+				"line" : 61,
+				"parent" : 381
+			},
+			{
+				"command" : 16,
+				"file" : 30,
+				"line" : 43,
+				"parent" : 379
+			},
+			{
+				"file" : 35,
+				"parent" : 383
+			},
+			{
+				"command" : 26,
+				"file" : 35,
+				"line" : 51,
+				"parent" : 384
+			},
+			{
+				"command" : 25,
+				"file" : 34,
+				"line" : 142,
+				"parent" : 385
+			},
+			{
+				"command" : 22,
+				"file" : 33,
+				"line" : 76,
+				"parent" : 386
+			},
+			{
+				"command" : 22,
+				"file" : 25,
+				"line" : 333,
+				"parent" : 387
+			},
+			{
+				"file" : 32,
+				"parent" : 388
+			},
+			{
+				"command" : 16,
+				"file" : 32,
+				"line" : 55,
+				"parent" : 389
+			},
+			{
+				"file" : 31,
+				"parent" : 390
+			},
+			{
+				"command" : 21,
+				"file" : 31,
+				"line" : 61,
+				"parent" : 391
+			},
+			{
+				"command" : 22,
+				"file" : 25,
+				"line" : 315,
+				"parent" : 321
+			},
+			{
+				"file" : 37,
+				"parent" : 393
+			},
+			{
+				"command" : 16,
+				"file" : 37,
+				"line" : 55,
+				"parent" : 394
+			},
+			{
+				"file" : 36,
+				"parent" : 395
+			},
+			{
+				"command" : 21,
+				"file" : 36,
+				"line" : 61,
+				"parent" : 396
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 688,
+				"parent" : 2
+			},
+			{
+				"command" : 22,
+				"file" : 25,
+				"line" : 315,
+				"parent" : 321
+			},
+			{
+				"file" : 39,
+				"parent" : 399
+			},
+			{
+				"command" : 16,
+				"file" : 39,
+				"line" : 59,
+				"parent" : 400
+			},
+			{
+				"file" : 38,
+				"parent" : 401
+			},
+			{
+				"command" : 21,
+				"file" : 38,
+				"line" : 61,
+				"parent" : 402
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 832,
+				"parent" : 317
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 832,
+				"parent" : 404
+			},
+			{
+				"command" : 28,
+				"file" : 2,
+				"line" : 5126,
+				"parent" : 405
+			},
+			{
+				"command" : 27,
+				"file" : 2,
+				"line" : 4911,
+				"parent" : 406
+			},
+			{
+				"command" : 30,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 31,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 32,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 499,
+				"parent" : 410
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 411
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 412
+			},
+			{
+				"command" : 31,
+				"file" : 0,
+				"line" : 2289,
+				"parent" : 413
+			},
+			{
+				"command" : 32,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 499,
+				"parent" : 415
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 416
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 417
+			},
+			{
+				"command" : 31,
+				"file" : 0,
+				"line" : 2289,
+				"parent" : 418
+			},
+			{
+				"command" : 31,
+				"file" : 20,
+				"line" : 2,
+				"parent" : 309
+			},
+			{
+				"command" : 33,
+				"file" : 0,
+				"line" : 906,
+				"parent" : 316
+			},
+			{
+				"command" : 31,
+				"file" : 0,
+				"line" : 2414,
+				"parent" : 421
+			},
+			{
+				"command" : 34,
+				"file" : 0,
+				"line" : 849,
+				"parent" : 317
+			},
+			{
+				"command" : 31,
+				"file" : 40,
+				"line" : 126,
+				"parent" : 423
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 398,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 314,
+					"define" : "QT_SERIALBUS_LIB"
+				},
+				{
+					"backtrace" : 314,
+					"define" : "QT_SERIALPORT_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug"
+				},
+				{
+					"path" : "C:/Git/BusWrench/SW/BusWrench"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchApp_autogen/include"
+				},
+				{
+					"backtrace" : 408,
+					"path" : "C:/Git/BusWrench/SW/BusWrench/External/PCANBasic/Include"
+				},
+				{
+					"backtrace" : 398,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtCore"
+				},
+				{
+					"backtrace" : 398,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include"
+				},
+				{
+					"backtrace" : 398,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtGui"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtQml"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 314,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtSerialBus"
+				},
+				{
+					"backtrace" : 314,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtSerialPort"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"defines" : 
+			[
+				{
+					"backtrace" : 398,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 314,
+					"define" : "QT_SERIALBUS_LIB"
+				},
+				{
+					"backtrace" : 314,
+					"define" : "QT_SERIALPORT_LIB"
+				},
+				{
+					"backtrace" : 310,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 398,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug"
+				},
+				{
+					"path" : "C:/Git/BusWrench/SW/BusWrench"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchApp_autogen/include"
+				},
+				{
+					"backtrace" : 408,
+					"path" : "C:/Git/BusWrench/SW/BusWrench/External/PCANBasic/Include"
+				},
+				{
+					"backtrace" : 398,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtCore"
+				},
+				{
+					"backtrace" : 398,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include"
+				},
+				{
+					"backtrace" : 398,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtGui"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtQml"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 310,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 314,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtSerialBus"
+				},
+				{
+					"backtrace" : 314,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtSerialPort"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				11
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 407,
+			"id" : "BusWrenchApp_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "BusWrench::@e35a15687863123ea984"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "BusWrenchplugin::@e35a15687863123ea984"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "BusWrench_resources_1::@e35a15687863123ea984"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "BusWrench_resources_2::@e35a15687863123ea984"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "BusWrenchplugin_init::@e35a15687863123ea984"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "BusWrenchContent::@e873d19cbe5d11485938"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "BusWrenchContent_resources_2::@e873d19cbe5d11485938"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "BusWrenchContent_resources_1::@e873d19cbe5d11485938"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "BusWrenchContentplugin::@e873d19cbe5d11485938"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "BusWrenchContent_resources_3::@e873d19cbe5d11485938"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "BusWrenchContentplugin_init::@e873d19cbe5d11485938"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioApplication::@96628f3d7b199c5571df"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioApplicationplugin::@96628f3d7b199c5571df"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioApplication_resources_1::@96628f3d7b199c5571df"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioApplicationplugin_init::@96628f3d7b199c5571df"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioComponents::@0526ae300ede523a7852"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioComponents_resources_1::@0526ae300ede523a7852"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioComponentsplugin::@0526ae300ede523a7852"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioComponents_resources_2::@0526ae300ede523a7852"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioComponentsplugin_init::@0526ae300ede523a7852"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioExtras::@e60e1ef64563e370001a"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioExtras_resources_1::@e60e1ef64563e370001a"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioExtrasplugin::@e60e1ef64563e370001a"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioExtras_resources_2::@e60e1ef64563e370001a"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioLayers_resources_1::@9cea06909fd7c65dc0a4"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioExtrasplugin_init::@e60e1ef64563e370001a"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioLayers::@9cea06909fd7c65dc0a4"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioLayersplugin::@9cea06909fd7c65dc0a4"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioLayers_resources_3::@9cea06909fd7c65dc0a4"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioLayersplugin_init::@9cea06909fd7c65dc0a4"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioLayers_resources_2::@9cea06909fd7c65dc0a4"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioProfilingplugin::@18181dfaa655dadd9acd"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioProfiling::@18181dfaa655dadd9acd"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioProfiling_resources_1::@18181dfaa655dadd9acd"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioProfilingplugin_init::@18181dfaa655dadd9acd"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickUltraLiteStudioProfiling_resources_2::@18181dfaa655dadd9acd"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioComponents_resources_2::@749c3276d580d9ca25a1"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioComponents::@749c3276d580d9ca25a1"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioComponents_resources_1::@749c3276d580d9ca25a1"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioComponentsplugin::@749c3276d580d9ca25a1"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioComponentsplugin_init::@749c3276d580d9ca25a1"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioDesignEffects_resources_1::@30d88e5628b3a63ca79b"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioDesignEffects::@30d88e5628b3a63ca79b"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioDesignEffects_resources_2::@30d88e5628b3a63ca79b"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioDesignEffectsplugin_init::@30d88e5628b3a63ca79b"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioDesignEffectsplugin::@30d88e5628b3a63ca79b"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioDesignEffects_resources_3::@30d88e5628b3a63ca79b"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEffects::@473bcec785945019a901"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEffects_resources_1::@473bcec785945019a901"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEffectsplugin::@473bcec785945019a901"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEffectsplugin_init::@473bcec785945019a901"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEffects_resources_2::@473bcec785945019a901"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "FlowViewplugin::@f8214a2e873271944316"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "FlowView_resources_1::@f8214a2e873271944316"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "FlowView_resources_2::@f8214a2e873271944316"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "FlowView::@f8214a2e873271944316"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioLogicHelper::@79eb3f839f3a7e042382"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "FlowViewplugin_init::@f8214a2e873271944316"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioLogicHelper_resources_2::@79eb3f839f3a7e042382"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioLogicHelper_resources_1::@79eb3f839f3a7e042382"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioLogicHelperplugin::@79eb3f839f3a7e042382"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioMultiText_resources_1::@450bae6a060ab3230f06"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioMultiText_resources_2::@450bae6a060ab3230f06"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioLogicHelperplugin_init::@79eb3f839f3a7e042382"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioMultiText::@450bae6a060ab3230f06"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioMultiTextplugin::@450bae6a060ab3230f06"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioMultiTextplugin_init::@450bae6a060ab3230f06"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEventSimulator_resources_2::@ffe67900f9ff583b4a15"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEventSimulatorplugin::@ffe67900f9ff583b4a15"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEventSimulator::@ffe67900f9ff583b4a15"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEventSimulator_resources_1::@ffe67900f9ff583b4a15"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEventSystem::@7313da5ee4978bca808b"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEventSimulatorplugin_init::@ffe67900f9ff583b4a15"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEventSystem_resources_1::@7313da5ee4978bca808b"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEventSystem_resources_2::@7313da5ee4978bca808b"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioUtils::@8ff510d3f555da08768e"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioUtils_resources_1::@8ff510d3f555da08768e"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEventSystemplugin::@7313da5ee4978bca808b"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioEventSystemplugin_init::@7313da5ee4978bca808b"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioUtilsplugin::@8ff510d3f555da08768e"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioUtilsplugin_init::@8ff510d3f555da08768e"
+		},
+		{
+			"backtrace" : 313,
+			"id" : "QuickStudioUtils_resources_2::@8ff510d3f555da08768e"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "BusWrenchApp_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "BusWrenchApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "BusWrenchApp::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/BusWrenchApp"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-LC:\\Git\\BusWrench\\SW\\BusWrench\\External\\PCANBasic\\Lib\\x64",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "BusWrench\\CMakeFiles\\BusWrenchplugin_init.dir\\.\\BusWrenchplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "BusWrench\\CMakeFiles\\BusWrenchplugin_init.dir\\.\\BusWrenchplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "BusWrenchContent\\CMakeFiles\\BusWrenchContentplugin_init.dir\\.\\BusWrenchContentplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "BusWrenchContent\\CMakeFiles\\BusWrenchContentplugin_init.dir\\.\\BusWrenchContentplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "Dependencies\\Components\\imports\\application\\CMakeFiles\\QuickStudioApplicationplugin_init.dir\\.\\QuickStudioApplicationplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "Dependencies\\Components\\imports\\application\\CMakeFiles\\QuickStudioApplicationplugin_init.dir\\.\\QuickStudioApplicationplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "Dependencies\\Components\\imports\\tools\\eventsimulator\\CMakeFiles\\QuickStudioEventSimulatorplugin_init.dir\\.\\QuickStudioEventSimulatorplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "Dependencies\\Components\\imports\\tools\\eventsimulator\\CMakeFiles\\QuickStudioEventSimulatorplugin_init.dir\\.\\QuickStudioEventSimulatorplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "Dependencies\\Components\\imports\\tools\\eventsystem\\CMakeFiles\\QuickStudioEventSystemplugin_init.dir\\.\\QuickStudioEventSystemplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "Dependencies\\Components\\imports\\tools\\eventsystem\\CMakeFiles\\QuickStudioEventSystemplugin_init.dir\\.\\QuickStudioEventSystemplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "Dependencies\\Components\\imports\\components\\CMakeFiles\\QuickStudioComponentsplugin_init.dir\\.\\QuickStudioComponentsplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "Dependencies\\Components\\imports\\components\\CMakeFiles\\QuickStudioComponentsplugin_init.dir\\.\\QuickStudioComponentsplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 41,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Extras\\CMakeFiles\\QuickUltraLiteStudioExtrasplugin_init.dir\\.\\QuickUltraLiteStudioExtrasplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 41,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Extras\\CMakeFiles\\QuickUltraLiteStudioExtrasplugin_init.dir\\.\\QuickUltraLiteStudioExtrasplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 46,
+				"fragment" : "Dependencies\\Components\\imports\\flowview\\CMakeFiles\\FlowViewplugin_init.dir\\.\\FlowViewplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 46,
+				"fragment" : "Dependencies\\Components\\imports\\flowview\\CMakeFiles\\FlowViewplugin_init.dir\\.\\FlowViewplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 51,
+				"fragment" : "Dependencies\\Components\\imports\\utils\\CMakeFiles\\QuickStudioUtilsplugin_init.dir\\.\\QuickStudioUtilsplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 51,
+				"fragment" : "Dependencies\\Components\\imports\\utils\\CMakeFiles\\QuickStudioUtilsplugin_init.dir\\.\\QuickStudioUtilsplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 57,
+				"fragment" : "BusWrench\\CMakeFiles\\BusWrench_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_BusWrench_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 64,
+				"fragment" : "BusWrench\\CMakeFiles\\BusWrench_resources_2.dir\\.\\.qt\\rcc\\qrc_BusWrench_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 70,
+				"fragment" : "BusWrenchContent\\CMakeFiles\\BusWrenchContent_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_BusWrenchContent_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 77,
+				"fragment" : "BusWrenchContent\\CMakeFiles\\BusWrenchContent_resources_2.dir\\.\\.qt\\rcc\\qrc_BusWrenchContent_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 83,
+				"fragment" : "BusWrenchContent\\CMakeFiles\\BusWrenchContent_resources_3.dir\\.\\.qt\\rcc\\qrc_BusWrenchContent_raw_res_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 88,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Components\\CMakeFiles\\QuickUltraLiteStudioComponentsplugin_init.dir\\.\\QuickUltraLiteStudioComponentsplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 88,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Components\\CMakeFiles\\QuickUltraLiteStudioComponentsplugin_init.dir\\.\\QuickUltraLiteStudioComponentsplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 93,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Layers\\CMakeFiles\\QuickUltraLiteStudioLayersplugin_init.dir\\.\\QuickUltraLiteStudioLayersplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 93,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Layers\\CMakeFiles\\QuickUltraLiteStudioLayersplugin_init.dir\\.\\QuickUltraLiteStudioLayersplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 98,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Profiling\\CMakeFiles\\QuickUltraLiteStudioProfilingplugin_init.dir\\.\\QuickUltraLiteStudioProfilingplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 98,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Profiling\\CMakeFiles\\QuickUltraLiteStudioProfilingplugin_init.dir\\.\\QuickUltraLiteStudioProfilingplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 103,
+				"fragment" : "Dependencies\\Components\\imports\\designeffects\\CMakeFiles\\QuickStudioDesignEffectsplugin_init.dir\\.\\QuickStudioDesignEffectsplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 103,
+				"fragment" : "Dependencies\\Components\\imports\\designeffects\\CMakeFiles\\QuickStudioDesignEffectsplugin_init.dir\\.\\QuickStudioDesignEffectsplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 108,
+				"fragment" : "Dependencies\\Components\\imports\\effects_qt6\\CMakeFiles\\QuickStudioEffectsplugin_init.dir\\.\\QuickStudioEffectsplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 108,
+				"fragment" : "Dependencies\\Components\\imports\\effects_qt6\\CMakeFiles\\QuickStudioEffectsplugin_init.dir\\.\\QuickStudioEffectsplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 113,
+				"fragment" : "Dependencies\\Components\\imports\\logichelper\\CMakeFiles\\QuickStudioLogicHelperplugin_init.dir\\.\\QuickStudioLogicHelperplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 113,
+				"fragment" : "Dependencies\\Components\\imports\\logichelper\\CMakeFiles\\QuickStudioLogicHelperplugin_init.dir\\.\\QuickStudioLogicHelperplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 118,
+				"fragment" : "Dependencies\\Components\\imports\\multitext\\CMakeFiles\\QuickStudioMultiTextplugin_init.dir\\.\\QuickStudioMultiTextplugin_init_autogen\\mocs_compilation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 118,
+				"fragment" : "Dependencies\\Components\\imports\\multitext\\CMakeFiles\\QuickStudioMultiTextplugin_init.dir\\.\\QuickStudioMultiTextplugin_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 124,
+				"fragment" : "Dependencies\\Components\\imports\\application\\CMakeFiles\\QuickStudioApplication_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_QtQuick_Studio_Application_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 130,
+				"fragment" : "Dependencies\\Components\\imports\\tools\\eventsimulator\\CMakeFiles\\QuickStudioEventSimulator_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_QtQuick_Studio_EventSimulator_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 137,
+				"fragment" : "Dependencies\\Components\\imports\\tools\\eventsimulator\\CMakeFiles\\QuickStudioEventSimulator_resources_2.dir\\.\\.qt\\rcc\\qrc_QuickStudioEventSimulator_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 143,
+				"fragment" : "Dependencies\\Components\\imports\\tools\\eventsystem\\CMakeFiles\\QuickStudioEventSystem_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_QtQuick_Studio_EventSystem_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 150,
+				"fragment" : "Dependencies\\Components\\imports\\tools\\eventsystem\\CMakeFiles\\QuickStudioEventSystem_resources_2.dir\\.\\.qt\\rcc\\qrc_QuickStudioEventSystem_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 156,
+				"fragment" : "Dependencies\\Components\\imports\\components\\CMakeFiles\\QuickStudioComponents_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_QtQuick_Studio_Components_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 163,
+				"fragment" : "Dependencies\\Components\\imports\\components\\CMakeFiles\\QuickStudioComponents_resources_2.dir\\.\\.qt\\rcc\\qrc_QuickStudioComponents_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 169,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Extras\\CMakeFiles\\QuickUltraLiteStudioExtras_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_QtQuickUltralite_Extras_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 176,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Extras\\CMakeFiles\\QuickUltraLiteStudioExtras_resources_2.dir\\.\\.qt\\rcc\\qrc_QuickUltraLiteStudioExtras_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 183,
+				"fragment" : "Dependencies\\Components\\imports\\flowview\\CMakeFiles\\FlowView_resources_1.dir\\.\\.qt\\rcc\\qrc_FlowView_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 189,
+				"fragment" : "Dependencies\\Components\\imports\\flowview\\CMakeFiles\\FlowView_resources_2.dir\\.\\.qt\\rcc\\qrc_FlowView_raw_res_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 195,
+				"fragment" : "Dependencies\\Components\\imports\\utils\\CMakeFiles\\QuickStudioUtils_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_QtQuick_Studio_Utils_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 202,
+				"fragment" : "Dependencies\\Components\\imports\\utils\\CMakeFiles\\QuickStudioUtils_resources_2.dir\\.\\.qt\\rcc\\qrc_QuickStudioUtils_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 208,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Components\\CMakeFiles\\QuickUltraLiteStudioComponents_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_QtQuickUltralite_Studio_Components_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 215,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Components\\CMakeFiles\\QuickUltraLiteStudioComponents_resources_2.dir\\.\\.qt\\rcc\\qrc_QuickUltraLiteStudioComponents_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 221,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Layers\\CMakeFiles\\QuickUltraLiteStudioLayers_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_QtQuickUltralite_Layers_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 228,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Layers\\CMakeFiles\\QuickUltraLiteStudioLayers_resources_2.dir\\.\\.qt\\rcc\\qrc_QuickUltraLiteStudioLayers_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 234,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Layers\\CMakeFiles\\QuickUltraLiteStudioLayers_resources_3.dir\\.\\.qt\\rcc\\qrc_QuickUltraLiteStudioLayers_raw_qml_0_extra_qmldirs_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 240,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Profiling\\CMakeFiles\\QuickUltraLiteStudioProfiling_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_QtQuickUltralite_Profiling_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 247,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Profiling\\CMakeFiles\\QuickUltraLiteStudioProfiling_resources_2.dir\\.\\.qt\\rcc\\qrc_QuickUltraLiteStudioProfiling_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 253,
+				"fragment" : "Dependencies\\Components\\imports\\designeffects\\CMakeFiles\\QuickStudioDesignEffects_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_QtQuick_Studio_DesignEffects_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 260,
+				"fragment" : "Dependencies\\Components\\imports\\designeffects\\CMakeFiles\\QuickStudioDesignEffects_resources_2.dir\\.\\.qt\\rcc\\qrc_QuickStudioDesignEffects_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 268,
+				"fragment" : "Dependencies\\Components\\imports\\designeffects\\CMakeFiles\\QuickStudioDesignEffects_resources_3.dir\\.\\.qt\\rcc\\qrc_designeffectsshaders_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 274,
+				"fragment" : "Dependencies\\Components\\imports\\effects_qt6\\CMakeFiles\\QuickStudioEffects_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_QtQuick_Studio_Effects_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 281,
+				"fragment" : "Dependencies\\Components\\imports\\effects_qt6\\CMakeFiles\\QuickStudioEffects_resources_2.dir\\.\\.qt\\rcc\\qrc_QuickStudioEffects_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 287,
+				"fragment" : "Dependencies\\Components\\imports\\logichelper\\CMakeFiles\\QuickStudioLogicHelper_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_QtQuick_Studio_LogicHelper_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 294,
+				"fragment" : "Dependencies\\Components\\imports\\logichelper\\CMakeFiles\\QuickStudioLogicHelper_resources_2.dir\\.\\.qt\\rcc\\qrc_QuickStudioLogicHelper_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 300,
+				"fragment" : "Dependencies\\Components\\imports\\multitext\\CMakeFiles\\QuickStudioMultiText_resources_1.dir\\.\\.qt\\rcc\\qrc_qmake_QtQuick_Studio_MultiText_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 307,
+				"fragment" : "Dependencies\\Components\\imports\\multitext\\CMakeFiles\\QuickStudioMultiText_resources_2.dir\\.\\.qt\\rcc\\qrc_QuickStudioMultiText_raw_qml_0_init.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 308,
+				"fragment" : "-lPCANBasic",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 310,
+				"fragment" : "C:\\Qt\\6.12.0\\mingw_64\\lib\\libQt6Widgets.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 310,
+				"fragment" : "C:\\Qt\\6.12.0\\mingw_64\\lib\\libQt6Quick.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 313,
+				"fragment" : "qml\\BusWrench\\libBusWrenchplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 313,
+				"fragment" : "qml\\BusWrenchContent\\libBusWrenchContentplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 314,
+				"fragment" : "C:\\Qt\\6.12.0\\mingw_64\\lib\\libQt6SerialBus.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 320,
+				"fragment" : "qml\\QtQuick\\Studio\\Application\\libQuickStudioApplicationplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 320,
+				"fragment" : "qml\\QtQuick\\Studio\\EventSimulator\\libQuickStudioEventSimulatorplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 320,
+				"fragment" : "qml\\QtQuick\\Studio\\EventSystem\\libQuickStudioEventSystemplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 313,
+				"fragment" : "qml\\BusWrench\\libBusWrenchplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 320,
+				"fragment" : "qml\\QtQuick\\Studio\\Components\\libQuickStudioComponentsplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 320,
+				"fragment" : "qml\\QtQuickUltralite\\Extras\\libQuickUltraLiteStudioExtrasplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 320,
+				"fragment" : "qml\\FlowView\\libFlowViewplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 320,
+				"fragment" : "qml\\QtQuick\\Studio\\Utils\\libQuickStudioUtilsplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 326,
+				"fragment" : "C:\\Qt\\6.12.0\\mingw_64\\lib\\libQt6OpenGL.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 326,
+				"fragment" : "-luser32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 328,
+				"fragment" : "BusWrench\\libBusWrench.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 330,
+				"fragment" : "BusWrenchContent\\libBusWrenchContent.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 332,
+				"fragment" : "Dependencies\\Components\\imports\\application\\libQuickStudioApplication.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 334,
+				"fragment" : "Dependencies\\Components\\imports\\tools\\eventsimulator\\libQuickStudioEventSimulator.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 336,
+				"fragment" : "Dependencies\\Components\\imports\\tools\\eventsystem\\libQuickStudioEventSystem.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 338,
+				"fragment" : "Dependencies\\Components\\imports\\components\\libQuickStudioComponents.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 340,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Extras\\libQuickUltraLiteStudioExtras.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 342,
+				"fragment" : "Dependencies\\Components\\imports\\flowview\\libFlowView.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 344,
+				"fragment" : "Dependencies\\Components\\imports\\utils\\libQuickStudioUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 346,
+				"fragment" : "qml\\QtQuickUltralite\\Studio\\Components\\libQuickUltraLiteStudioComponentsplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 348,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Components\\libQuickUltraLiteStudioComponents.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 350,
+				"fragment" : "qml\\QtQuickUltralite\\Layers\\libQuickUltraLiteStudioLayersplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 352,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Layers\\libQuickUltraLiteStudioLayers.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 354,
+				"fragment" : "qml\\QtQuickUltralite\\Profiling\\libQuickUltraLiteStudioProfilingplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 356,
+				"fragment" : "Dependencies\\Components\\imports\\compat\\Profiling\\libQuickUltraLiteStudioProfiling.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 310,
+				"fragment" : "C:\\Qt\\6.12.0\\mingw_64\\lib\\libQt6Gui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 361,
+				"fragment" : "-ld3d11",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 361,
+				"fragment" : "-ldxgi",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 361,
+				"fragment" : "-ldxguid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 361,
+				"fragment" : "-ld3d12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 363,
+				"fragment" : "qml\\QtQuick\\Studio\\DesignEffects\\libQuickStudioDesignEffectsplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 365,
+				"fragment" : "Dependencies\\Components\\imports\\designeffects\\libQuickStudioDesignEffects.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 367,
+				"fragment" : "qml\\QtQuick\\Studio\\Effects\\libQuickStudioEffectsplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 369,
+				"fragment" : "Dependencies\\Components\\imports\\effects_qt6\\libQuickStudioEffects.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 371,
+				"fragment" : "qml\\QtQuick\\Studio\\LogicHelper\\libQuickStudioLogicHelperplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 373,
+				"fragment" : "Dependencies\\Components\\imports\\logichelper\\libQuickStudioLogicHelper.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 375,
+				"fragment" : "qml\\QtQuick\\Studio\\MultiText\\libQuickStudioMultiTextplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 377,
+				"fragment" : "Dependencies\\Components\\imports\\multitext\\libQuickStudioMultiText.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 310,
+				"fragment" : "C:\\Qt\\6.12.0\\mingw_64\\lib\\libQt6Qml.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 382,
+				"fragment" : "-lshell32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 382,
+				"fragment" : "C:\\Qt\\6.12.0\\mingw_64\\lib\\libQt6Network.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 392,
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 397,
+				"fragment" : "C:\\Qt\\6.12.0\\mingw_64\\lib\\libQt6SerialPort.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 398,
+				"fragment" : "C:\\Qt\\6.12.0\\mingw_64\\lib\\libQt6Core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 403,
+				"fragment" : "-lmpr",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 403,
+				"fragment" : "-luserenv",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "BusWrenchApp",
+	"nameOnDisk" : "BusWrenchApp.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				12,
+				13,
+				15,
+				17,
+				20
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				7,
+				9
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6,
+				8,
+				10,
+				11,
+				14
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				16,
+				18
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				19
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				21,
+				22,
+				23
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchApp_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "App/canbackend.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "App/canbackend.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "App/devicemodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "App/devicemodel.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "App/updatemanager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "App/updatemanager.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "App/appsettings.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "App/appsettings.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "App/nodeconfig.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "App/nodeconfig.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 409,
+			"compileGroupIndex" : 1,
+			"path" : "appicon.rc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 414,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/.qt/rcc/qrc_icons.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 419,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/.qt/rcc/qrc_configuration.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 420,
+			"compileGroupIndex" : 0,
+			"path" : "App/main.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 422,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/.qt/rcc/icons.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 422,
+			"path" : "icon-256.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 422,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/.qt/rcc/configuration.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 422,
+			"path" : "qtquickcontrols2.conf",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 424,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchApp.exe.manifest",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchApp_autogen/timestamp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/.qt/rcc/qrc_icons.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/.qt/rcc/qrc_configuration.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchApp_autogen/timestamp.rule",
+			"sourceGroupIndex" : 5
+		}
+	],
+	"type" : "EXECUTABLE"
+}

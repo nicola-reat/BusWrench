@@ -1,0 +1,14 @@
+-rootPath
+C:/Git/BusWrench/SW/BusWrench
+-cmake-output
+-output-file
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/.qt/qml_imports/BusWrenchApp_conf.cmake
+-importPath
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug
+-importPath
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml
+-importPath
+C:/Qt/6.12.0/mingw_64/qml
+-qrcFiles
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/.qt/rcc/icons.qrc
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/.qt/rcc/configuration.qrc

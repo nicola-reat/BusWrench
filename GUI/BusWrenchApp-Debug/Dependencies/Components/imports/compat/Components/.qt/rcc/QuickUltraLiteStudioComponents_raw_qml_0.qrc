@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuickUltralite/Studio/Components/">
+    <file alias="ArcItem.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/compat/Components/ArcItem.qml</file>
+  </qresource>
+</RCC>
+

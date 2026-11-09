@@ -1,0 +1,10 @@
+module BusWrench
+linktarget BusWrenchplugin
+optional plugin BusWrenchplugin
+classname BusWrenchPlugin
+typeinfo BusWrench.qmltypes
+prefer :/qt/qml/BusWrench/
+singleton Constants 1.0 Constants.qml
+EventListModel 1.0 EventListModel.qml
+EventListSimulator 1.0 EventListSimulator.qml
+

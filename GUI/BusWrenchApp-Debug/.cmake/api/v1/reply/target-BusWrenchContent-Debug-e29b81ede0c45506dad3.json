@@ -1,0 +1,1129 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "BusWrenchContent/libBusWrenchContent.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt6_add_library",
+			"qt_add_library",
+			"add_dependencies",
+			"_qt_internal_write_deferred_qmlls_build_ini_file",
+			"_qt_internal_qml_copy_files_to_build_dir",
+			"qt6_add_qml_module",
+			"target_link_libraries",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"set_source_files_properties",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt6_target_qml_sources",
+			"_qt_internal_target_enable_qmlcachegen",
+			"_qt_internal_expose_deferred_files_to_ide",
+			"qt6_finalize_target"
+		],
+		"files" : 
+		[
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"BusWrenchContent/CMakeLists.txt",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:1189:EVAL",
+			"CMakeLists.txt",
+			"C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:881:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 3044,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2930,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3017,
+				"parent" : 3
+			},
+			{
+				"file" : 4
+			},
+			{
+				"file" : 4,
+				"line" : -1,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1474,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 1049,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 3335,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 1055,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 3335,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 696,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 914,
+				"parent" : 9
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 4494,
+				"parent" : 15
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 4294,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1696,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 4460,
+				"parent" : 15
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 4486,
+				"parent" : 15
+			},
+			{
+				"command" : 16,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 9
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 21
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 22
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 2289,
+				"parent" : 23
+			},
+			{
+				"command" : 17,
+				"file" : 2,
+				"line" : 1039,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3813,
+				"parent" : 25
+			},
+			{
+				"command" : 18,
+				"file" : 2,
+				"line" : 3952,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 2020,
+				"parent" : 27
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 4005,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3813,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 4005,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3813,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 4005,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3813,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 4005,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3813,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 4005,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3813,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 4005,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3813,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 4005,
+				"parent" : 25
+			},
+			{
+				"command" : 16,
+				"file" : 2,
+				"line" : 4092,
+				"parent" : 25
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 42
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 43
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 2289,
+				"parent" : 44
+			},
+			{
+				"command" : 16,
+				"file" : 2,
+				"line" : 4110,
+				"parent" : 25
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 46
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 2749,
+				"parent" : 47
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 2289,
+				"parent" : 48
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 20,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 50
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 906,
+				"parent" : 51
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 2414,
+				"parent" : 52
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 14,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent"
+				},
+				{
+					"path" : "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/BusWrenchContent_autogen/include"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtQml"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtCore"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtNetwork"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				5,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-Wa,-mbig-obj"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 14,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent"
+				},
+				{
+					"path" : "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/BusWrenchContent_autogen/include"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtQml"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtCore"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.12.0/mingw_64/include/QtNetwork"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "BusWrenchContent_copy_qml::@e873d19cbe5d11485938"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "BusWrenchContent_copy_res::@e873d19cbe5d11485938"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "BusWrenchContent_autogen::@e873d19cbe5d11485938"
+		},
+		{
+			"id" : "BusWrenchContent_autogen_timestamp_deps::@e873d19cbe5d11485938"
+		}
+	],
+	"id" : "BusWrenchContent::@e873d19cbe5d11485938",
+	"name" : "BusWrenchContent",
+	"nameOnDisk" : "libBusWrenchContent.a",
+	"paths" : 
+	{
+		"build" : "BusWrenchContent",
+		"source" : "BusWrenchContent"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				5,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				19,
+				20,
+				21,
+				23,
+				24,
+				52
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				4,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				22,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				68,
+				69,
+				70
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/BusWrenchContent_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 18,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/meta_types/qt6buswrenchcontent_metatypes.json.gen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/buswrenchcontent_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/qrc_qmake_BusWrenchContent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"path" : "BusWrenchContent/App.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 28,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_App_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"path" : "BusWrenchContent/DeviceCard.ui.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_DeviceCard.ui_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "BusWrenchContent/PageDevices.ui.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 33,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_PageDevices.ui_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"path" : "BusWrenchContent/PageUpdate.ui.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 35,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_PageUpdate.ui_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 36,
+			"path" : "BusWrenchContent/Screen01.ui.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_Screen01.ui_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"path" : "BusWrenchContent/PageSettings.ui.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 39,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_PageSettings.ui_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "BusWrenchContent/PageDetails.ui.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_PageDetails.ui_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 45,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/qrc_BusWrenchContent_raw_qml_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/qrc_BusWrenchContent_raw_res_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/qmake_BusWrenchContent.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrenchContent/qmldir",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/BusWrenchContent_raw_qml_0.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/BusWrenchContent_raw_res_0.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/buswrench-icon.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_chevron-right.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_circle-alert-Orange.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_circle-check.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_clock.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_cpu.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_device.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_error.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_file-up.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_folder-open - Blu.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_folder-open.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_gauge.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_hexagon.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_info - blu.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_list-clock_white.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_log.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_microchip - Blu.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_microchip.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_play.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_refresh-cw - Blu.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_refresh-cw.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_settings.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_update.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_zap - Blu.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_zap.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/ico_keypad.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"path" : "BusWrenchContent/images/circuit-board-White.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/BusWrenchContent_autogen/timestamp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/meta_types/qt6buswrenchcontent_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/buswrenchcontent_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/qrc_qmake_BusWrenchContent.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_App_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_DeviceCard.ui_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_PageDevices.ui_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_PageUpdate.ui_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_Screen01.ui_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_PageSettings.ui_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.rcc/qmlcache/BusWrenchContent_PageDetails.ui_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/qrc_BusWrenchContent_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/qrc_BusWrenchContent_raw_res_0.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/BusWrenchContent_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/meta_types/BusWrenchContent_json_file_list.txt.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 14,
+			"path" : "C:/Qt/6.12.0/mingw_64/metatypes/qt6qml_metatypes.json",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 14,
+			"path" : "C:/Qt/6.12.0/mingw_64/metatypes/qt6core_metatypes.json",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 14,
+			"path" : "C:/Qt/6.12.0/mingw_64/metatypes/qt6network_metatypes.json",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,5 @@
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/Dependencies/Components/imports/compat/Profiling/.qt/rcc/qmake_QtQuickUltralite_Profiling.qrc
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/Dependencies/Components/imports/compat/Profiling/.qt/rcc/QuickUltraLiteStudioProfiling_raw_qml_0.qrc
+/qt-project.org/imports/QtQuickUltralite/Profiling/QulPerfOverlay.qml

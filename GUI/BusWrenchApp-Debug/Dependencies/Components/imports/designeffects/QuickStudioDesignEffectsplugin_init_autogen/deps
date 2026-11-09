@@ -1,0 +1,10 @@
+QuickStudioDesignEffectsplugin_init_autogen/timestamp: \
+	C:/Git/BusWrench/GUI/BusWrenchApp-Debug/Dependencies/Components/imports/designeffects/QuickStudioDesignEffectsplugin_QtQuick_Studio_DesignEffectsPlugin_in.cpp \
+	C:/Git/BusWrench/GUI/BusWrenchApp-Debug/Dependencies/Components/imports/designeffects/QuickStudioDesignEffectsplugin_init.cpp \
+	C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/designeffects/CMakeLists.txt \
+	C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
+	C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp \
+	C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in \
+	C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in \
+	C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in \
+	C:/Qt/Tools/CMake_64/bin/cmake.exe

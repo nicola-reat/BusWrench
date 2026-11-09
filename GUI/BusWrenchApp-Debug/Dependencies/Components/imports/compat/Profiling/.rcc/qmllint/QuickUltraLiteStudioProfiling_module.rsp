@@ -1,0 +1,14 @@
+-I
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml
+-I
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/QtQuickUltralite/Profiling
+-I
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml
+-I
+C:/Qt/6.12.0/mingw_64/qml
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/Dependencies/Components/imports/compat/Profiling/.qt/rcc/qmake_QtQuickUltralite_Profiling.qrc
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/Dependencies/Components/imports/compat/Profiling/.qt/rcc/QuickUltraLiteStudioProfiling_raw_qml_0.qrc
+--module
+QtQuickUltralite.Profiling

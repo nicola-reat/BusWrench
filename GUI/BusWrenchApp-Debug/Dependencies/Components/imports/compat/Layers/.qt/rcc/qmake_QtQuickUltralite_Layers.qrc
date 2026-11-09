@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuickUltralite/Layers">
+    <file alias="qmldir">C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/QtQuickUltralite/Layers/qmldir</file>
+  </qresource>
+</RCC>
+

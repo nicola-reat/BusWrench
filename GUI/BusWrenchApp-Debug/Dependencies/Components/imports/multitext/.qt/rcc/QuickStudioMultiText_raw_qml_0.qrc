@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuick/Studio/MultiText/">
+    <file alias="MultiTextElement.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/multitext/MultiTextElement.qml</file>
+    <file alias="MultiTextItem.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/multitext/MultiTextItem.qml</file>
+    <file alias="MultiTextException.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/multitext/MultiTextException.qml</file>
+  </qresource>
+</RCC>
+

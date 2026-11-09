@@ -1,0 +1,14 @@
+-I
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml
+-I
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/QtQuickUltralite/Studio/Components
+-I
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml
+-I
+C:/Qt/6.12.0/mingw_64/qml
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/Dependencies/Components/imports/compat/Components/.qt/rcc/qmake_QtQuickUltralite_Studio_Components.qrc
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/Dependencies/Components/imports/compat/Components/.qt/rcc/QuickUltraLiteStudioComponents_raw_qml_0.qrc
+--module
+QtQuickUltralite.Studio.Components

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/BusWrench">
+    <file alias="qmldir">C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrench/qmldir</file>
+  </qresource>
+</RCC>
+

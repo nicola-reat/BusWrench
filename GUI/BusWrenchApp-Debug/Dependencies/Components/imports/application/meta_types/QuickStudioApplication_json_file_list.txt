@@ -1,0 +1,1 @@
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/Dependencies/Components/imports/application/QuickStudioApplication_autogen/include/../EWIEGA46WW/moc_quickstudioapplication.cpp.json

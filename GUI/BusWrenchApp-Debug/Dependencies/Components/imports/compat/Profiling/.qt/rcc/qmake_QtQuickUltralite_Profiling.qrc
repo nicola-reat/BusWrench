@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuickUltralite/Profiling">
+    <file alias="qmldir">C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/QtQuickUltralite/Profiling/qmldir</file>
+  </qresource>
+</RCC>
+

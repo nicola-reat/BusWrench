@@ -1,0 +1,62 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"BusWrenchContent/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "BusWrenchContentplugin_autogen_timestamp_deps::@e873d19cbe5d11485938",
+	"isGeneratorProvided" : true,
+	"name" : "BusWrenchContentplugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "BusWrenchContent",
+		"source" : "BusWrenchContent"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/CMakeFiles/BusWrenchContentplugin_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/CMakeFiles/BusWrenchContentplugin_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,16 @@
+-I
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml
+-I
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrenchContent
+-I
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml
+-I
+C:/Qt/6.12.0/mingw_64/qml
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/qmake_BusWrenchContent.qrc
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/BusWrenchContent_raw_qml_0.qrc
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/BusWrenchContent_raw_res_0.qrc
+--module
+BusWrenchContent

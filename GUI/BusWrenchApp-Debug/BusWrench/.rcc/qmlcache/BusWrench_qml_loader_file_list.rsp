@@ -1,0 +1,7 @@
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrench/.qt/rcc/qmake_BusWrench.qrc
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrench/.qt/rcc/BusWrench_raw_qml_0.qrc
+/qt/qml/BusWrench/Constants.qml
+/qt/qml/BusWrench/EventListModel.qml
+/qt/qml/BusWrench/EventListSimulator.qml

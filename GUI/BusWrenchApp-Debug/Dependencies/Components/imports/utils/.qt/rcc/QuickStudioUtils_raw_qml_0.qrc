@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuick/Studio/Utils/">
+    <file alias="JsonListModel.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/utils/JsonListModel.qml</file>
+    <file alias="JsonBackend.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/utils/JsonBackend.qml</file>
+    <file alias="ChildListModel.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/utils/ChildListModel.qml</file>
+  </qresource>
+</RCC>
+

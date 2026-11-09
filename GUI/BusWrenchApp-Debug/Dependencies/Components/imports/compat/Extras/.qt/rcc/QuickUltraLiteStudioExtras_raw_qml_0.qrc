@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuickUltralite/Extras/">
+    <file alias="AnimatedSpriteDirectory.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/compat/Extras/AnimatedSpriteDirectory.qml</file>
+    <file alias="ColorizedImage.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/compat/Extras/ColorizedImage.qml</file>
+    <file alias="ItemBuffer.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/compat/Extras/ItemBuffer.qml</file>
+    <file alias="StaticText.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/compat/Extras/StaticText.qml</file>
+    <file alias="QulPerf.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/compat/Extras/QulPerf.qml</file>
+  </qresource>
+</RCC>
+

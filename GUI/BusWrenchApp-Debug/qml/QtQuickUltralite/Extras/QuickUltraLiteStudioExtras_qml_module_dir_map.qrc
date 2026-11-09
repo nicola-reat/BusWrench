@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt-project.org/imports/QtQuickUltralite/Extras">C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/QtQuickUltralite/Extras</file>
+
+  </qresource>
+</RCC>

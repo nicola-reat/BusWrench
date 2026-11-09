@@ -1,0 +1,13 @@
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/qmake_BusWrenchContent.qrc
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/BusWrenchContent_raw_qml_0.qrc
+--resource
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/rcc/BusWrenchContent_raw_res_0.qrc
+/qt/qml/BusWrenchContent/App.qml
+/qt/qml/BusWrenchContent/DeviceCard.ui.qml
+/qt/qml/BusWrenchContent/PageDevices.ui.qml
+/qt/qml/BusWrenchContent/PageUpdate.ui.qml
+/qt/qml/BusWrenchContent/Screen01.ui.qml
+/qt/qml/BusWrenchContent/PageSettings.ui.qml
+/qt/qml/BusWrenchContent/PageDetails.ui.qml

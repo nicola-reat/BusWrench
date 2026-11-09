@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuick/Studio/Effects">
+    <file alias="qmldir">C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/QtQuick/Studio/Effects/qmldir</file>
+  </qresource>
+</RCC>
+

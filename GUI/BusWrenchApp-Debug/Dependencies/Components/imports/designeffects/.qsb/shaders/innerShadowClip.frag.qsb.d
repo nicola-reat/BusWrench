@@ -1,0 +1,2 @@
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/Dependencies/Components/imports/designeffects/.qsb/shaders/innerShadowClip.frag.qsb: \
+  C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/designeffects/shaders/innerShadowClip.frag

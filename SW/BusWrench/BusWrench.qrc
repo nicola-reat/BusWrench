@@ -1,0 +1,44 @@
+<RCC>
+    <qresource>
+        <file>BusWrench.qmlproject</file>
+        <file>BusWrench/Constants.qml</file>
+        <file>BusWrench/EventListModel.qml</file>
+        <file>BusWrench/EventListSimulator.qml</file>
+        <file>BusWrench/qmldir</file>
+        <file>BusWrenchContent/App.qml</file>
+        <file>BusWrenchContent/DeviceCard.ui.qml</file>
+        <file>BusWrenchContent/images/buswrench-icon.svg</file>
+        <file>BusWrenchContent/images/circuit-board-White.svg</file>
+        <file>BusWrenchContent/images/ico_chevron-right.svg</file>
+        <file>BusWrenchContent/images/ico_circle-alert-Orange.svg</file>
+        <file>BusWrenchContent/images/ico_circle-check.svg</file>
+        <file>BusWrenchContent/images/ico_clock.svg</file>
+        <file>BusWrenchContent/images/ico_cpu.svg</file>
+        <file>BusWrenchContent/images/ico_device.svg</file>
+        <file>BusWrenchContent/images/ico_error.svg</file>
+        <file>BusWrenchContent/images/ico_file-up.svg</file>
+        <file>BusWrenchContent/images/ico_folder-open - Blu.svg</file>
+        <file>BusWrenchContent/images/ico_folder-open.svg</file>
+        <file>BusWrenchContent/images/ico_gauge.svg</file>
+        <file>BusWrenchContent/images/ico_hexagon.svg</file>
+        <file>BusWrenchContent/images/ico_info - blu.svg</file>
+        <file>BusWrenchContent/images/ico_keypad.svg</file>
+        <file>BusWrenchContent/images/ico_list-clock_white.svg</file>
+        <file>BusWrenchContent/images/ico_log.svg</file>
+        <file>BusWrenchContent/images/ico_microchip - Blu.svg</file>
+        <file>BusWrenchContent/images/ico_microchip.svg</file>
+        <file>BusWrenchContent/images/ico_play.svg</file>
+        <file>BusWrenchContent/images/ico_refresh-cw - Blu.svg</file>
+        <file>BusWrenchContent/images/ico_refresh-cw.svg</file>
+        <file>BusWrenchContent/images/ico_settings.svg</file>
+        <file>BusWrenchContent/images/ico_update.svg</file>
+        <file>BusWrenchContent/images/ico_zap - Blu.svg</file>
+        <file>BusWrenchContent/images/ico_zap.svg</file>
+        <file>BusWrenchContent/PageDetails.ui.qml</file>
+        <file>BusWrenchContent/PageDevices.ui.qml</file>
+        <file>BusWrenchContent/PageSettings.ui.qml</file>
+        <file>BusWrenchContent/PageUpdate.ui.qml</file>
+        <file>BusWrenchContent/Screen01.ui.qml</file>
+        <file>qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>

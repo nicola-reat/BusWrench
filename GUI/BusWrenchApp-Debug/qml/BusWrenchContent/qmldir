@@ -1,0 +1,14 @@
+module BusWrenchContent
+linktarget BusWrenchContentplugin
+optional plugin BusWrenchContentplugin
+classname BusWrenchContentPlugin
+typeinfo BusWrenchContent.qmltypes
+prefer :/qt/qml/BusWrenchContent/
+App 1.0 App.qml
+DeviceCard 1.0 DeviceCard.ui.qml
+PageDevices 1.0 PageDevices.ui.qml
+PageUpdate 1.0 PageUpdate.ui.qml
+Screen01 1.0 Screen01.ui.qml
+PageSettings 1.0 PageSettings.ui.qml
+PageDetails 1.0 PageDetails.ui.qml
+

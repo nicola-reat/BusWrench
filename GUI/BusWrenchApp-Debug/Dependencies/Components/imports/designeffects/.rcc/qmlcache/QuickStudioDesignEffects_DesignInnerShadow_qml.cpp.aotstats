@@ -1,0 +1,15 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                    ],
+                    "filePath": "C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/designeffects/DesignInnerShadow.qml"
+                }
+            ],
+            "moduleId": "QtQuick.Studio.DesignEffects(QuickStudioDesignEffects)"
+        }
+    ]
+}

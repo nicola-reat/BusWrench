@@ -1,0 +1,2 @@
+C:/Git/BusWrench/GUI/BusWrenchApp-Debug/Dependencies/Components/imports/designeffects/.qsb/shaders/dropShadow.frag.qsb: \
+  C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/designeffects/shaders/dropShadow.frag

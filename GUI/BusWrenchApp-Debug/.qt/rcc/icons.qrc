@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file alias="icon-256.png">C:/Git/BusWrench/SW/BusWrench/icon-256.png</file>
+  </qresource>
+</RCC>
+

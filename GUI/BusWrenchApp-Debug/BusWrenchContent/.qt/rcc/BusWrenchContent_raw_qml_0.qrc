@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/qt/qml/BusWrenchContent/">
+    <file alias="App.qml">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/App.qml</file>
+    <file alias="DeviceCard.ui.qml">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/DeviceCard.ui.qml</file>
+    <file alias="PageDevices.ui.qml">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/PageDevices.ui.qml</file>
+    <file alias="PageUpdate.ui.qml">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/PageUpdate.ui.qml</file>
+    <file alias="Screen01.ui.qml">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/Screen01.ui.qml</file>
+    <file alias="PageSettings.ui.qml">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/PageSettings.ui.qml</file>
+    <file alias="PageDetails.ui.qml">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/PageDetails.ui.qml</file>
+  </qresource>
+</RCC>
+
