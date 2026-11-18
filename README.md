@@ -6,12 +6,7 @@
   <b>Flash and configure your CAN boards from one desktop app.</b>
 </p>
 
-BusWrench is a Windows desktop tool (Qt 6 / QML) that talks to the boards
-of a race car through a PEAK PCAN-USB adapter. It finds the boards on the
-CAN bus, updates their firmware **entirely over CAN** (no USB cable, no
-programmer), shows their details (uptime, flash partitions, errors, ...) and
-lets you edit the settings that were hard-coded in the firmware (sensor
-calibration, display texts, alarms, node ID) without recompiling.
+BusWrench is a Windows desktop tool (Qt 6 / QML) that talks to the boards of a race car through a PEAK PCAN-USB adapter. It finds the boards on the CAN bus, updates their firmware entirely over CAN (no USB cable, no programmer), shows their details (uptime, flash partitions, errors, ...) and lets you edit the settings that were hard-coded in the firmware (sensor calibration, display texts, alarms, node ID) without recompiling.
 
 It was born for the electronics of a BMW E36 race car, but the protocol is
 simple and open: any board can join the bus by implementing the same few
