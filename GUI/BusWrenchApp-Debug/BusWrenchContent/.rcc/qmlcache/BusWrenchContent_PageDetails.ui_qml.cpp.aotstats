@@ -10,7 +10,7 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 87,
+                            "line": 94,
                             "message": ""
                         },
                         {
@@ -18,7 +18,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 86,
+                            "line": 93,
                             "message": ""
                         },
                         {
@@ -26,7 +26,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 106,
+                            "line": 113,
                             "message": ""
                         },
                         {
@@ -34,7 +34,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 165,
+                            "line": 172,
                             "message": ""
                         },
                         {
@@ -42,7 +42,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 185,
+                            "line": 192,
                             "message": ""
                         },
                         {
@@ -50,7 +50,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 186,
+                            "line": 193,
                             "message": ""
                         },
                         {
@@ -58,7 +58,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 181,
+                            "line": 188,
                             "message": ""
                         },
                         {
@@ -66,7 +66,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 190,
+                            "line": 197,
                             "message": ""
                         },
                         {
@@ -74,7 +74,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 219,
+                            "line": 226,
                             "message": ""
                         },
                         {
@@ -82,7 +82,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 229,
+                            "line": 236,
                             "message": ""
                         },
                         {
@@ -90,7 +90,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 242,
+                            "line": 249,
                             "message": ""
                         },
                         {
@@ -98,7 +98,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 254,
+                            "line": 261,
                             "message": ""
                         },
                         {
@@ -106,7 +106,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 255,
+                            "line": 262,
                             "message": ""
                         },
                         {
@@ -114,7 +114,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 273,
+                            "line": 280,
                             "message": ""
                         },
                         {
@@ -122,7 +122,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 286,
+                            "line": 293,
                             "message": ""
                         },
                         {
@@ -130,7 +130,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 287,
+                            "line": 294,
                             "message": ""
                         },
                         {
@@ -138,7 +138,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 305,
+                            "line": 312,
                             "message": ""
                         },
                         {
@@ -146,7 +146,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 317,
+                            "line": 324,
                             "message": ""
                         },
                         {
@@ -154,7 +154,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 318,
+                            "line": 325,
                             "message": ""
                         },
                         {
@@ -162,7 +162,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 336,
+                            "line": 343,
                             "message": ""
                         },
                         {
@@ -170,7 +170,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 348,
+                            "line": 355,
                             "message": ""
                         },
                         {
@@ -178,7 +178,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 349,
+                            "line": 356,
                             "message": ""
                         },
                         {
@@ -186,7 +186,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 367,
+                            "line": 374,
                             "message": ""
                         },
                         {
@@ -194,7 +194,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 379,
+                            "line": 386,
                             "message": ""
                         },
                         {
@@ -202,7 +202,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 380,
+                            "line": 387,
                             "message": ""
                         },
                         {
@@ -210,7 +210,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 398,
+                            "line": 405,
                             "message": ""
                         },
                         {
@@ -218,7 +218,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 410,
+                            "line": 417,
                             "message": ""
                         },
                         {
@@ -226,7 +226,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 411,
+                            "line": 418,
                             "message": ""
                         },
                         {
@@ -234,7 +234,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 429,
+                            "line": 436,
                             "message": ""
                         },
                         {
@@ -242,7 +242,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 442,
+                            "line": 449,
                             "message": ""
                         },
                         {
@@ -250,7 +250,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 443,
+                            "line": 450,
                             "message": ""
                         },
                         {
@@ -258,7 +258,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 461,
+                            "line": 468,
                             "message": ""
                         },
                         {
@@ -266,7 +266,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 474,
+                            "line": 481,
                             "message": ""
                         },
                         {
@@ -274,7 +274,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 475,
+                            "line": 482,
                             "message": ""
                         },
                         {
@@ -282,7 +282,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 504,
+                            "line": 511,
                             "message": ""
                         },
                         {
@@ -290,23 +290,23 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 514,
+                            "line": 521,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 34,
+                            "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 524,
+                            "line": 532,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 32,
+                            "column": 33,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 525,
+                            "line": 533,
                             "message": ""
                         },
                         {
@@ -314,7 +314,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 552,
+                            "line": 564,
                             "message": ""
                         },
                         {
@@ -322,7 +322,15 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 570,
+                            "line": 583,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 619,
                             "message": ""
                         },
                         {
@@ -330,7 +338,7 @@
                             "column": 42,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 639,
+                            "line": 657,
                             "message": ""
                         },
                         {
@@ -338,7 +346,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 640,
+                            "line": 658,
                             "message": ""
                         },
                         {
@@ -346,7 +354,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 634,
+                            "line": 652,
                             "message": ""
                         },
                         {
@@ -354,7 +362,7 @@
                             "column": 42,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 719,
+                            "line": 737,
                             "message": ""
                         },
                         {
@@ -362,7 +370,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 720,
+                            "line": 738,
                             "message": ""
                         },
                         {
@@ -370,7 +378,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 714,
+                            "line": 732,
                             "message": ""
                         },
                         {
@@ -378,7 +386,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 800,
+                            "line": 817,
                             "message": ""
                         },
                         {
@@ -386,7 +394,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 810,
+                            "line": 827,
                             "message": ""
                         },
                         {
@@ -394,7 +402,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 821,
+                            "line": 838,
                             "message": ""
                         },
                         {
@@ -402,7 +410,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 833,
+                            "line": 850,
                             "message": ""
                         },
                         {
@@ -410,7 +418,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 834,
+                            "line": 851,
                             "message": ""
                         },
                         {
@@ -418,7 +426,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 852,
+                            "line": 869,
                             "message": ""
                         },
                         {
@@ -426,7 +434,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 864,
+                            "line": 881,
                             "message": ""
                         },
                         {
@@ -434,7 +442,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 865,
+                            "line": 882,
                             "message": ""
                         },
                         {
@@ -442,7 +450,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 883,
+                            "line": 900,
                             "message": ""
                         },
                         {
@@ -450,7 +458,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 895,
+                            "line": 912,
                             "message": ""
                         },
                         {
@@ -458,7 +466,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 896,
+                            "line": 913,
                             "message": ""
                         },
                         {
@@ -466,7 +474,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 914,
+                            "line": 931,
                             "message": ""
                         },
                         {
@@ -474,7 +482,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 926,
+                            "line": 943,
                             "message": ""
                         },
                         {
@@ -482,7 +490,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 927,
+                            "line": 944,
                             "message": ""
                         },
                         {
@@ -490,7 +498,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 945,
+                            "line": 962,
                             "message": ""
                         },
                         {
@@ -498,7 +506,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 957,
+                            "line": 974,
                             "message": ""
                         },
                         {
@@ -506,7 +514,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 958,
+                            "line": 975,
                             "message": ""
                         },
                         {
@@ -514,7 +522,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 976,
+                            "line": 993,
                             "message": ""
                         },
                         {
@@ -522,7 +530,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 988,
+                            "line": 1005,
                             "message": ""
                         },
                         {
@@ -530,7 +538,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 989,
+                            "line": 1006,
                             "message": ""
                         },
                         {
@@ -538,7 +546,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 1018,
+                            "line": 1035,
                             "message": ""
                         },
                         {
@@ -546,7 +554,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 1028,
+                            "line": 1045,
                             "message": ""
                         },
                         {
@@ -554,7 +562,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "wrapMode",
-                            "line": 1058,
+                            "line": 1075,
                             "message": ""
                         },
                         {
@@ -562,7 +570,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 1062,
+                            "line": 1079,
                             "message": ""
                         },
                         {
@@ -570,7 +578,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "wrapMode",
-                            "line": 1092,
+                            "line": 1109,
                             "message": ""
                         },
                         {
@@ -578,7 +586,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 1096,
+                            "line": 1113,
                             "message": ""
                         },
                         {
@@ -586,7 +594,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "wrapMode",
-                            "line": 1126,
+                            "line": 1143,
                             "message": ""
                         },
                         {
@@ -594,7 +602,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 1130,
+                            "line": 1147,
                             "message": ""
                         },
                         {
@@ -602,7 +610,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "wrapMode",
-                            "line": 1160,
+                            "line": 1177,
                             "message": ""
                         },
                         {
@@ -610,7 +618,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 1164,
+                            "line": 1181,
                             "message": ""
                         },
                         {
@@ -618,7 +626,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "wrapMode",
-                            "line": 1194,
+                            "line": 1211,
                             "message": ""
                         },
                         {
@@ -626,7 +634,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 1198,
+                            "line": 1215,
                             "message": ""
                         },
                         {
@@ -634,7 +642,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "wrapMode",
-                            "line": 1228,
+                            "line": 1245,
                             "message": ""
                         },
                         {
@@ -642,7 +650,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 1232,
+                            "line": 1249,
                             "message": ""
                         }
                     ],

@@ -114,6 +114,7 @@ private:
             QString version = QStringLiteral("-");
         };
         Part part[2];               // 0 = ota_0, 1 = ota_1
+        quint8 flashMb = 0;         // size of the flash chip in MB (0 = not known)
     };
 
     // Returns the row of a node, adding it to the list if it does not exist.

@@ -64,6 +64,13 @@ Rectangle {
     property alias p1Bar: p1Bar
     property alias p1Used: p1Used
     property alias partNote: partNote
+    property alias flashInfo: flashInfo
+    property alias mapSys: mapSys
+    property alias mapOta0: mapOta0
+    property alias mapOta1: mapOta1
+    property alias mapData: mapData
+    property alias mapAppLabel: mapAppLabel
+    property alias mapDataLabel: mapDataLabel
 
     // ---- actions ----
     property alias actUpdate: actUpdate
@@ -514,30 +521,35 @@ Rectangle {
             verticalAlignment: Text.AlignVCenter
         }
         Text {
-            x: 400
-            y: 7
-            width: 214
-            height: 20
-            text: qsTr("8 MB · schema OTA")
-            color: "#8fa3bf"
-            font.pixelSize: 12
-            horizontalAlignment: Text.AlignRight
-            verticalAlignment: Text.AlignVCenter
-        }
+             id: flashInfo
+             x: 400
+             y: 7
+             width: 214
+             height: 20
+             text: qsTr("8 MB · schema OTA")
+             color: "#8fa3bf"
+             font.pixelSize: 12
+             horizontalAlignment: Text.AlignRight
+             verticalAlignment: Text.AlignVCenter
+             }
 
-        // Map of the flash: system | ota_0 | ota_1 | data (static drawing)
+        // Map of the flash: system | ota_0 | ota_1 | data.
+        // Positions and widths are set by App.qml from the data of the board:
+        // the values here are only the design (8 MB flash, 3.5 MB per app).
         Rectangle {
+            id: mapSys
             x: 16
             y: 50
-            width: 30
+            width: 8
             height: 28
             radius: 4
             color: "#2a4570"
         }
         Rectangle {
-            x: 48
+            id: mapOta0
+            x: 25
             y: 50
-            width: 221
+            width: 259
             height: 28
             radius: 4
             color: "#1e7bff"
@@ -553,9 +565,10 @@ Rectangle {
             }
         }
         Rectangle {
-            x: 271
+            id: mapOta1
+            x: 286
             y: 50
-            width: 221
+            width: 259
             height: 28
             radius: 4
             color: "#16305a"
@@ -571,9 +584,10 @@ Rectangle {
             }
         }
         Rectangle {
-            x: 494
+            id: mapData
+            x: 547
             y: 50
-            width: 118
+            width: 63
             height: 28
             radius: 4
             color: "#0e2a52"
@@ -587,18 +601,22 @@ Rectangle {
             font.pixelSize: 12
         }
         Text {
+            id: mapAppLabel
             x: 190
             y: 86
-            text: qsTr("App · 3.0 MB ciascuna")
+            text: qsTr("App · 3.5 MB ciascuna")
             color: "#8fa3bf"
             font.pixelSize: 12
         }
         Text {
-            x: 350
+            id: mapDataLabel
+            x: 412
             y: 86
-            text: qsTr("Dati · 1.9 MB")
+            width: 200
+            text: qsTr("Dati · 0.9 MB")
             color: "#8fa3bf"
             font.pixelSize: 12
+            horizontalAlignment: Text.AlignRight
         }
 
         // Slot 0 (ota_0)
@@ -770,8 +788,7 @@ Rectangle {
             color: "#8fa3bf"
             font.pixelSize: 12
         }
-    }
-
+}
     /* ================= PANEL: STATE AND BUS ================= */
     Rectangle {
         id: panelStats

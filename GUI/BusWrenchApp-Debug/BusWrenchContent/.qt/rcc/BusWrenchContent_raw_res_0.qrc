@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/qt/qml/BusWrenchContent/">
     <file alias="images/buswrench-icon.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/buswrench-icon.svg</file>
+    <file alias="images/circuit-board-White.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/circuit-board-White.svg</file>
     <file alias="images/ico_chevron-right.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_chevron-right.svg</file>
     <file alias="images/ico_circle-alert-Orange.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_circle-alert-Orange.svg</file>
     <file alias="images/ico_circle-check.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_circle-check.svg</file>
@@ -14,6 +15,7 @@
     <file alias="images/ico_gauge.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_gauge.svg</file>
     <file alias="images/ico_hexagon.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_hexagon.svg</file>
     <file alias="images/ico_info - blu.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_info - blu.svg</file>
+    <file alias="images/ico_keypad.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_keypad.svg</file>
     <file alias="images/ico_list-clock_white.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_list-clock_white.svg</file>
     <file alias="images/ico_log.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_log.svg</file>
     <file alias="images/ico_microchip - Blu.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_microchip - Blu.svg</file>
@@ -25,8 +27,6 @@
     <file alias="images/ico_update.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_update.svg</file>
     <file alias="images/ico_zap - Blu.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_zap - Blu.svg</file>
     <file alias="images/ico_zap.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_zap.svg</file>
-    <file alias="images/ico_keypad.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_keypad.svg</file>
-    <file alias="images/circuit-board-White.svg">C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/circuit-board-White.svg</file>
   </qresource>
 </RCC>
 

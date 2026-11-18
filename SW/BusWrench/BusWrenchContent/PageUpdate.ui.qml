@@ -31,6 +31,7 @@ Item {
     property alias badgeStatus: badgeStatus
     property alias badge: badge
     property alias devName: devName
+    property alias ringFg: ringFg
 
     Rectangle {
         id: hdrCircle

@@ -1,5 +1,3 @@
-
-
 /*
 This is a UI file (.ui.qml) that is intended to be edited in Qt Design Studio only.
 It is supposed to be strictly declarative and only uses a subset of QML. If you edit
@@ -17,6 +15,7 @@ Rectangle {
     height: Constants.height
     color: "#0b1626"
     property alias pageDetails: pageDetails
+    property alias pageConfig: pageConfig
 
     property alias canStatusError: canStatusError
     property alias canStatusCheck: canStatusCheck
@@ -136,10 +135,33 @@ Rectangle {
             verticalAlignment: Text.AlignVCenter
         }
 
+        // ---- Configuration (sensor of the gauge boards) ----
+        Image {
+            id: ico_config
+            x: 32
+            y: 246
+            source: "images/ico_microchip.svg"
+            sourceSize.height: 24
+            sourceSize.width: 24
+            fillMode: Image.PreserveAspectFit
+        }
+
+        Text {
+            id: txtConfig
+            x: 68
+            y: 230
+            width: 190
+            height: 52
+            color: "#c9d6ea"
+            text: qsTr("Configurazione")
+            font.pixelSize: 16
+            verticalAlignment: Text.AlignVCenter
+        }
+
         Image {
             id: ico_log
             x: 32
-            y: 246
+            y: 306
             source: "images/ico_log.svg"
             sourceSize.height: 24
             sourceSize.width: 24
@@ -149,7 +171,7 @@ Rectangle {
         Text {
             id: txtLog
             x: 68
-            y: 230
+            y: 290
             width: 190
             height: 52
             color: "#c9d6ea"
@@ -161,7 +183,7 @@ Rectangle {
         Text {
             id: txtSettings
             x: 68
-            y: 290
+            y: 350
             width: 190
             height: 52
             color: "#c9d6ea"
@@ -229,7 +251,7 @@ Rectangle {
         Image {
             id: ico_settings
             x: 32
-            y: 306
+            y: 366
             source: "images/ico_settings.svg"
             sourceSize.height: 24
             sourceSize.width: 24
@@ -267,9 +289,24 @@ Rectangle {
         }
 
         MouseArea {
-            id: maLog
+            id: maConfig
             x: 12
             y: 230
+            width: 256
+            height: 52
+
+            Connections {
+                target: maConfig
+                function onClicked() {
+                    rectangle.state = "config"
+                }
+            }
+        }
+
+        MouseArea {
+            id: maLog
+            x: 12
+            y: 290
             width: 256
             height: 52
         }
@@ -277,7 +314,7 @@ Rectangle {
         MouseArea {
             id: maSettings
             x: 12
-            y: 290
+            y: 350
             width: 256
             height: 52
 
@@ -307,6 +344,13 @@ Rectangle {
 
     PageDetails {
         id: pageDetails
+        visible: false
+    }
+
+    PageConfig {
+        id: pageConfig
+        x: 280
+        y: 0
         visible: false
     }
     states: [
@@ -356,7 +400,7 @@ Rectangle {
 
             PropertyChanges {
                 target: menuSel
-                y: 290
+                y: 350
             }
 
             PropertyChanges {
@@ -384,6 +428,29 @@ Rectangle {
                 target: pageDetails
                 x: 280
                 y: 0
+                visible: true
+            }
+        },
+        State {
+            name: "config"
+
+            PropertyChanges {
+                target: pageDevices
+                visible: false
+            }
+
+            PropertyChanges {
+                target: menuSel
+                y: 230
+            }
+
+            PropertyChanges {
+                target: menuDevices
+                color: "#c9d6ea"
+            }
+
+            PropertyChanges {
+                target: pageConfig
                 visible: true
             }
         }

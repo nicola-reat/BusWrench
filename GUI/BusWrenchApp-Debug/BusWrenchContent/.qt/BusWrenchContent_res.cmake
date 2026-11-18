@@ -4,6 +4,8 @@ set(working_dir "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent")
 set(src_and_dest_list
     "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/buswrench-icon.svg"
     "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrenchContent/images/buswrench-icon.svg"
+    "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/circuit-board-White.svg"
+    "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrenchContent/images/circuit-board-White.svg"
     "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_chevron-right.svg"
     "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrenchContent/images/ico_chevron-right.svg"
     "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_circle-alert-Orange.svg"
@@ -30,6 +32,8 @@ set(src_and_dest_list
     "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrenchContent/images/ico_hexagon.svg"
     "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_info - blu.svg"
     "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrenchContent/images/ico_info - blu.svg"
+    "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_keypad.svg"
+    "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrenchContent/images/ico_keypad.svg"
     "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_list-clock_white.svg"
     "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrenchContent/images/ico_list-clock_white.svg"
     "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_log.svg"
@@ -52,10 +56,6 @@ set(src_and_dest_list
     "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrenchContent/images/ico_zap - Blu.svg"
     "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_zap.svg"
     "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrenchContent/images/ico_zap.svg"
-    "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/ico_keypad.svg"
-    "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrenchContent/images/ico_keypad.svg"
-    "C:/Git/BusWrench/SW/BusWrench/BusWrenchContent/images/circuit-board-White.svg"
-    "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/qml/BusWrenchContent/images/circuit-board-White.svg"
 
 )
 set(timestamp_file "C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchContent/.qt/BusWrenchContent_res.txt")

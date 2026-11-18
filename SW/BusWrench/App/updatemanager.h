@@ -18,10 +18,11 @@ class CanBackend;
  *
  * Main responsibilities:
  *   1. Load the file and compute its size, CRC32, SHA-256 and version.
- *   2. Run the transfer: ENTER_BOOT, BEGIN, blocks of 256 bytes, FINISH.
- *   3. After every block wait for the board's confirmation and send the
+ *   2. Check that the file fits the chip of the selected board.
+ *   3. Run the transfer: ENTER_BOOT, BEGIN, blocks of 256 bytes, FINISH.
+ *   4. After every block wait for the board's confirmation and send the
  *      block again if the answer is missing or negative.
- *   4. Expose progress, remaining time, status text and log to QML.
+ *   5. Expose progress, remaining time, status text and log to QML.
  *
  * The class does not draw anything: QML reads its properties.
  * It uses CanBackend only to send frames and to receive the board's answers.
@@ -38,12 +39,16 @@ class UpdateManager : public QObject
     Q_PROPERTY(QString etaText READ etaText NOTIFY progressChanged)       // mm:ss
     Q_PROPERTY(QStringList logLines READ logLines NOTIFY logChanged)
 
+
     // Information about the loaded file ("File information" box).
     Q_PROPERTY(bool fileLoaded READ fileLoaded NOTIFY fileChanged)
     Q_PROPERTY(QString fileName READ fileName NOTIFY fileChanged)
     Q_PROPERTY(QString fileVersion READ fileVersion NOTIFY fileChanged)
     Q_PROPERTY(QString fileSize READ fileSize NOTIFY fileChanged)
     Q_PROPERTY(QString fileSha READ fileSha NOTIFY fileChanged)
+
+    //how the last update ended: 0 = none yet, 1 = ok, 2 = error, 3 = cancelled.
+    Q_PROPERTY(int outcome READ outcome NOTIFY statusChanged)
 
 public:
     explicit UpdateManager(CanBackend *can, QObject *parent = nullptr);
@@ -53,7 +58,7 @@ public:
     QString statusText() const { return m_status; }
     QString etaText() const { return m_eta; }
     QStringList logLines() const { return m_log; }
-
+    int outcome() const { return m_outcome; }
     bool fileLoaded() const { return !m_data.isEmpty(); }
     QString fileName() const { return m_fileName; }
     QString fileVersion() const { return m_fileVersion; }
@@ -62,6 +67,11 @@ public:
 
     // Reads the firmware file and computes its information.
     Q_INVOKABLE void loadFile(const QUrl &url);
+
+    // NEW: checks the loaded file against the chip of a board (1 = ESP32-S3,
+    // 2 = STM32, 0 = unknown). Returns "" if all is fine, otherwise the text
+    // of the problem (shown to the user).
+    Q_INVOKABLE QString problemFor(int boardChip) const;
 
     // Starts the update of the node with the given ID (e.g. 0x45).
     Q_INVOKABLE void start(int nodeId);
@@ -109,8 +119,11 @@ private:
     QByteArray m_data;             // content of the .bin file
     quint32 m_crc = 0;
     bool m_isEsp = false;          // the file looks like an ESP32 image
+    quint16 m_fileChip = 0xFFFF;   // chip number in the image header (ESP32-S3 = 9)
+    QString m_projectName;         // project name in the application descriptor
 
     bool m_busy = false;
+    int m_outcome = 0;             //see the property "outcome"
     double m_progress = 0.0;
     QString m_status = QStringLiteral("Select a firmware file");
     QString m_eta = QStringLiteral("--:--");

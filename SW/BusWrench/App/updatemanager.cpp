@@ -1,5 +1,6 @@
 #include "updatemanager.h"
 #include "canbackend.h"
+#include "devicemodel.h"            // to know the chip of the board (infoFor)
 
 #include <QCryptographicHash>
 #include <QDateTime>
@@ -154,6 +155,8 @@ void UpdateManager::setBusy(bool busy)
     emit busyChanged();
 }
 
+// Changes the status text. NOTE: "outcome" has the same notification signal,
+// so m_outcome must be set BEFORE calling this function.
 void UpdateManager::setStatus(const QString &text)
 {
     m_status = text;
@@ -181,7 +184,7 @@ void UpdateManager::log(const QString &text)
     emit logChanged();
 }
 
-// Reads the .bin file and computes size, CRC32, SHA-256 and version.
+// Reads the .bin file and computes size, CRC32, SHA-256, version, chip and project.
 void UpdateManager::loadFile(const QUrl &url)
 {
     if (m_busy)
@@ -210,13 +213,24 @@ void UpdateManager::loadFile(const QUrl &url)
                 + QString::fromLatin1(sha.right(4));
 
     // An ESP32 image starts with the byte 0xE9. The version (project version
-    // set in CMake) is inside the application descriptor, at offset 48.
+    // set in CMake) is inside the application descriptor, at offset 48, and
+    // the project name at offset 80.
     m_isEsp = (quint8(data[0]) == 0xE9);
+
+    //  chip the image was built for: 16-bit number at offset 12 of the header
+    // (ESP32-S3 = 9). 0xFFFF means "not an ESP32 image".
+    m_fileChip = (m_isEsp && data.size() >= 14)
+                     ? qFromLittleEndian<quint16>(data.constData() + 12)
+                     : quint16(0xFFFF);
+
     m_fileVersion = QStringLiteral("-");
+    m_projectName.clear();
     if (m_isEsp && data.size() >= 112
         && qFromLittleEndian<quint32>(data.constData() + 32) == 0xABCD5432u) {
         const char *v = data.constData() + 48;
         m_fileVersion = QString::fromLatin1(v, int(qstrnlen(v, 32)));
+        const char *pn = data.constData() + 80;                  // project name
+        m_projectName = QString::fromLatin1(pn, int(qstrnlen(pn, 32)));
     }
 
     m_progress = 0.0;
@@ -224,10 +238,36 @@ void UpdateManager::loadFile(const QUrl &url)
     emit progressChanged();
     emit fileChanged();
 
+    m_outcome = 0;                              // new file, no result yet
     setStatus(m_isEsp ? QStringLiteral("File ready")
                       : QStringLiteral("This is not an ESP32 image"));
     log(QStringLiteral("File loaded: %1, %2 bytes, CRC32 %3")
             .arg(m_fileName).arg(data.size()).arg(m_crc, 8, 16, QLatin1Char('0')));
+    if (m_isEsp)                                // what the file says about itself
+        log(QStringLiteral("ESP32 image: project \"%1\", version %2, chip %3")
+                .arg(m_projectName, m_fileVersion).arg(m_fileChip));
+}
+
+// checks that the loaded file can be used on a board with this chip.
+// boardChip comes from the scan (1 = ESP32-S3, 2 = STM32, 0 = unknown).
+// Returns "" if everything is fine, otherwise the text of the problem
+// (it is shown to the user).
+QString UpdateManager::problemFor(int boardChip) const
+{
+    if (m_data.isEmpty())
+        return QString();                                   // no file: nothing to check
+
+    if (boardChip == 2)                                     // STM32 boards: not supported yet
+        return QStringLiteral("Una scheda STM32 non può usare un firmware ESP32");
+
+    if (!m_isEsp)
+        return QStringLiteral("Il file non è un firmware ESP32");
+
+    // The image for an ESP32-S3 has the chip number 9 in its header.
+    if (boardChip == 1 && m_fileChip != 9)
+        return QStringLiteral("Il file non è per ESP32-S3 (chip %1)").arg(m_fileChip);
+
+    return QString();
 }
 
 void UpdateManager::start(int nodeId)
@@ -244,6 +284,18 @@ void UpdateManager::start(int nodeId)
         setStatus(QStringLiteral("Invalid file"));
         return;
     }
+
+    // the file must also fit the chip of the selected board. This is the
+    // last barrier: the user interface already disables the button in this case.
+    const int boardChip = m_can->devices()->infoFor(nodeId)
+                              .value(QStringLiteral("chipId")).toInt();
+    const QString problem = problemFor(boardChip);
+    if (!problem.isEmpty()) {
+        log(QStringLiteral("ERROR: ") + problem + QStringLiteral(": update refused"));
+        setStatus(problem);
+        return;
+    }
+
     if (!m_can->connected()) {
         log(QStringLiteral("CAN adapter not connected"));
         setStatus(QStringLiteral("CAN adapter not connected"));
@@ -265,6 +317,7 @@ void UpdateManager::start(int nodeId)
     m_nextLogPct = 10;
     setBusy(true);
     log(QStringLiteral("Update started on node 0x%1").arg(m_node, 2, 16, QLatin1Char('0')));
+    m_outcome = 0;                              // new update, no result yet
     setStatus(QStringLiteral("Entering update mode..."));
 
     m_state = EnterBoot;
@@ -280,6 +333,7 @@ void UpdateManager::abort()
     sendCmd(QByteArray(1, char(CMD_ABORT)));
     m_state = Idle;
     log(QStringLiteral("Update cancelled"));
+    m_outcome = 3;                              //  cancelled by the user
     setStatus(QStringLiteral("Cancelled"));
     setBusy(false);
     emit finished(false);
@@ -491,6 +545,7 @@ void UpdateManager::fail(const QString &reason)
     m_state = Idle;
 
     log(QStringLiteral("ERROR: ") + reason);
+    m_outcome = 2;                              // error
     setStatus(QStringLiteral("Error: ") + reason);
     setBusy(false);
     emit finished(false);
@@ -505,8 +560,8 @@ void UpdateManager::succeed()
 
     log(QStringLiteral("Update completed in %1 s. The board is restarting.")
             .arg(m_elapsed.elapsed() / 1000));
+    m_outcome = 1;                              //ok
     setStatus(QStringLiteral("Update completed"));
     setBusy(false);
     emit finished(true);
 }
-

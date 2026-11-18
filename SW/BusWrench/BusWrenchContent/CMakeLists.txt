@@ -11,13 +11,15 @@ qt6_add_qml_module(BusWrenchContent
     QML_FILES
         "App.qml"
         "DeviceCard.ui.qml"
+        "PageDetails.ui.qml"
         "PageDevices.ui.qml"
+        "PageSettings.ui.qml"
         "PageUpdate.ui.qml"
         "Screen01.ui.qml"
-        "PageSettings.ui.qml"
-        "PageDetails.ui.qml"
+        "PageConfig.ui.qml"
     RESOURCES
         "images/buswrench-icon.svg"
+        "images/circuit-board-White.svg"
         "images/ico_chevron-right.svg"
         "images/ico_circle-alert-Orange.svg"
         "images/ico_circle-check.svg"
@@ -31,6 +33,7 @@ qt6_add_qml_module(BusWrenchContent
         "images/ico_gauge.svg"
         "images/ico_hexagon.svg"
         "images/ico_info - blu.svg"
+        "images/ico_keypad.svg"
         "images/ico_list-clock_white.svg"
         "images/ico_log.svg"
         "images/ico_microchip - Blu.svg"
@@ -42,8 +45,6 @@ qt6_add_qml_module(BusWrenchContent
         "images/ico_update.svg"
         "images/ico_zap - Blu.svg"
         "images/ico_zap.svg"
-        "images/ico_keypad.svg"
-        "images/circuit-board-White.svg"
 )
 
 

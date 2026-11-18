@@ -21,7 +21,23 @@ namespace _qt_qml_BusWrenchContent_DeviceCard_ui_0x2e_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
     };
 }
+namespace _qt_qml_BusWrenchContent_PageDetails_ui_0x2e_qml { 
+    extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
+    };
+}
 namespace _qt_qml_BusWrenchContent_PageDevices_ui_0x2e_qml { 
+    extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
+    };
+}
+namespace _qt_qml_BusWrenchContent_PageSettings_ui_0x2e_qml { 
     extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -45,15 +61,7 @@ namespace _qt_qml_BusWrenchContent_Screen01_ui_0x2e_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
     };
 }
-namespace _qt_qml_BusWrenchContent_PageSettings_ui_0x2e_qml { 
-    extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
-    };
-}
-namespace _qt_qml_BusWrenchContent_PageDetails_ui_0x2e_qml { 
+namespace _qt_qml_BusWrenchContent_PageConfig_ui_0x2e_qml { 
     extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -77,11 +85,12 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/BusWrenchContent/App.qml"), &QmlCacheGeneratedCode::_qt_qml_BusWrenchContent_App_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/BusWrenchContent/DeviceCard.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_BusWrenchContent_DeviceCard_ui_0x2e_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/BusWrenchContent/PageDetails.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_BusWrenchContent_PageDetails_ui_0x2e_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/BusWrenchContent/PageDevices.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_BusWrenchContent_PageDevices_ui_0x2e_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/BusWrenchContent/PageSettings.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_BusWrenchContent_PageSettings_ui_0x2e_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/BusWrenchContent/PageUpdate.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_BusWrenchContent_PageUpdate_ui_0x2e_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/BusWrenchContent/Screen01.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_BusWrenchContent_Screen01_ui_0x2e_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/BusWrenchContent/PageSettings.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_BusWrenchContent_PageSettings_ui_0x2e_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/BusWrenchContent/PageDetails.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_BusWrenchContent_PageDetails_ui_0x2e_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/BusWrenchContent/PageConfig.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_BusWrenchContent_PageConfig_ui_0x2e_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

@@ -50,6 +50,8 @@ template <> constexpr inline auto UpdateManager::qt_create_metaobjectdata<qt_met
         "loadFile",
         "QUrl",
         "url",
+        "problemFor",
+        "boardChip",
         "start",
         "nodeId",
         "abort",
@@ -62,7 +64,8 @@ template <> constexpr inline auto UpdateManager::qt_create_metaobjectdata<qt_met
         "fileName",
         "fileVersion",
         "fileSize",
-        "fileSha"
+        "fileSha",
+        "outcome"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -84,34 +87,40 @@ template <> constexpr inline auto UpdateManager::qt_create_metaobjectdata<qt_met
         QtMocHelpers::MethodData<void(const QUrl &)>(9, 2, QMC::AccessPublic, QMetaType::Void, {{
             { 0x80000000 | 10, 11 },
         }}),
-        // Method 'start'
-        QtMocHelpers::MethodData<void(int)>(12, 2, QMC::AccessPublic, QMetaType::Void, {{
+        // Method 'problemFor'
+        QtMocHelpers::MethodData<QString(int) const>(12, 2, QMC::AccessPublic, QMetaType::QString, {{
             { QMetaType::Int, 13 },
         }}),
+        // Method 'start'
+        QtMocHelpers::MethodData<void(int)>(14, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Int, 15 },
+        }}),
         // Method 'abort'
-        QtMocHelpers::MethodData<void()>(14, 2, QMC::AccessPublic, QMetaType::Void),
+        QtMocHelpers::MethodData<void()>(16, 2, QMC::AccessPublic, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
         // property 'busy'
-        QtMocHelpers::PropertyData<bool>(15, QMetaType::Bool, QMC::DefaultPropertyFlags, 0),
+        QtMocHelpers::PropertyData<bool>(17, QMetaType::Bool, QMC::DefaultPropertyFlags, 0),
         // property 'progress'
-        QtMocHelpers::PropertyData<double>(16, QMetaType::Double, QMC::DefaultPropertyFlags, 1),
+        QtMocHelpers::PropertyData<double>(18, QMetaType::Double, QMC::DefaultPropertyFlags, 1),
         // property 'statusText'
-        QtMocHelpers::PropertyData<QString>(17, QMetaType::QString, QMC::DefaultPropertyFlags, 2),
+        QtMocHelpers::PropertyData<QString>(19, QMetaType::QString, QMC::DefaultPropertyFlags, 2),
         // property 'etaText'
-        QtMocHelpers::PropertyData<QString>(18, QMetaType::QString, QMC::DefaultPropertyFlags, 1),
+        QtMocHelpers::PropertyData<QString>(20, QMetaType::QString, QMC::DefaultPropertyFlags, 1),
         // property 'logLines'
-        QtMocHelpers::PropertyData<QStringList>(19, QMetaType::QStringList, QMC::DefaultPropertyFlags, 3),
+        QtMocHelpers::PropertyData<QStringList>(21, QMetaType::QStringList, QMC::DefaultPropertyFlags, 3),
         // property 'fileLoaded'
-        QtMocHelpers::PropertyData<bool>(20, QMetaType::Bool, QMC::DefaultPropertyFlags, 4),
+        QtMocHelpers::PropertyData<bool>(22, QMetaType::Bool, QMC::DefaultPropertyFlags, 4),
         // property 'fileName'
-        QtMocHelpers::PropertyData<QString>(21, QMetaType::QString, QMC::DefaultPropertyFlags, 4),
-        // property 'fileVersion'
-        QtMocHelpers::PropertyData<QString>(22, QMetaType::QString, QMC::DefaultPropertyFlags, 4),
-        // property 'fileSize'
         QtMocHelpers::PropertyData<QString>(23, QMetaType::QString, QMC::DefaultPropertyFlags, 4),
-        // property 'fileSha'
+        // property 'fileVersion'
         QtMocHelpers::PropertyData<QString>(24, QMetaType::QString, QMC::DefaultPropertyFlags, 4),
+        // property 'fileSize'
+        QtMocHelpers::PropertyData<QString>(25, QMetaType::QString, QMC::DefaultPropertyFlags, 4),
+        // property 'fileSha'
+        QtMocHelpers::PropertyData<QString>(26, QMetaType::QString, QMC::DefaultPropertyFlags, 4),
+        // property 'outcome'
+        QtMocHelpers::PropertyData<int>(27, QMetaType::Int, QMC::DefaultPropertyFlags, 2),
     };
     QtMocHelpers::UintData qt_enums {
     };
@@ -140,8 +149,10 @@ void UpdateManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 4: _t->fileChanged(); break;
         case 5: _t->finished((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
         case 6: _t->loadFile((*reinterpret_cast<std::add_pointer_t<QUrl>>(_a[1]))); break;
-        case 7: _t->start((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
-        case 8: _t->abort(); break;
+        case 7: { QString _r = _t->problemFor((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])));
+            if (_a[0]) *reinterpret_cast<QString*>(_a[0]) = std::move(_r); }  break;
+        case 8: _t->start((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
+        case 9: _t->abort(); break;
         default: ;
         }
     }
@@ -172,6 +183,7 @@ void UpdateManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 7: *reinterpret_cast<QString*>(_v) = _t->fileVersion(); break;
         case 8: *reinterpret_cast<QString*>(_v) = _t->fileSize(); break;
         case 9: *reinterpret_cast<QString*>(_v) = _t->fileSha(); break;
+        case 10: *reinterpret_cast<int*>(_v) = _t->outcome(); break;
         default: break;
         }
     }
@@ -196,20 +208,20 @@ int UpdateManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 9)
+        if (_id < 10)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 9;
+        _id -= 10;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 9)
+        if (_id < 10)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 9;
+        _id -= 10;
     }
     if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
             || _c == QMetaObject::RegisterPropertyMetaType) {
         qt_static_metacall(this, _c, _id, _a);
-        _id -= 10;
+        _id -= 11;
     }
     return _id;
 }

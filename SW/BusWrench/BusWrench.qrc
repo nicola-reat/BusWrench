@@ -34,6 +34,7 @@
         <file>BusWrenchContent/images/ico_update.svg</file>
         <file>BusWrenchContent/images/ico_zap - Blu.svg</file>
         <file>BusWrenchContent/images/ico_zap.svg</file>
+        <file>BusWrenchContent/PageConfig.ui.qml</file>
         <file>BusWrenchContent/PageDetails.ui.qml</file>
         <file>BusWrenchContent/PageDevices.ui.qml</file>
         <file>BusWrenchContent/PageSettings.ui.qml</file>

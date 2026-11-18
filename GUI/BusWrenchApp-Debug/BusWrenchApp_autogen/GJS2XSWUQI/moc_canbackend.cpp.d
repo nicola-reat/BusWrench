@@ -6,6 +6,7 @@ C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchApp_autogen/GJS2XSWUQI/moc_canb
   C:/Qt/6.12.0/mingw_64/include/QtCore/QList \
   C:/Qt/6.12.0/mingw_64/include/QtCore/QMap \
   C:/Qt/6.12.0/mingw_64/include/QtCore/QObject \
+  C:/Qt/6.12.0/mingw_64/include/QtCore/QPoint \
   C:/Qt/6.12.0/mingw_64/include/QtCore/QString \
   C:/Qt/6.12.0/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.12.0/mingw_64/include/QtCore/QVariant \
@@ -38,6 +39,7 @@ C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchApp_autogen/GJS2XSWUQI/moc_canb
   C:/Qt/6.12.0/mingw_64/include/QtCore/qbytearraylist.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qbytearrayview.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qchar.h \
+  C:/Qt/6.12.0/mingw_64/include/QtCore/qcheckedint_impl.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qcompare.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qcompare_impl.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qcomparehelpers.h \
@@ -84,6 +86,7 @@ C:/Git/BusWrench/GUI/BusWrenchApp-Debug/BusWrenchApp_autogen/GJS2XSWUQI/moc_canb
   C:/Qt/6.12.0/mingw_64/include/QtCore/qobjectdefs_impl.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qoverload.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qpair.h \
+  C:/Qt/6.12.0/mingw_64/include/QtCore/qpoint.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qrefcount.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qscopedpointer.h \

@@ -208,6 +208,7 @@ QVariantMap DeviceModel::infoFor(int nodeId) const
         QVariantMap m;
         m["deviceName"] = data(idx, NameRole);
         m["chip"]       = data(idx, ChipRole);
+        m["flashMb"]    = int(it.flashMb);
         m["nodeId"]     = data(idx, NodeIdRole);
         m["firmware"]   = data(idx, FirmwareRole);
         m["hardware"]   = data(idx, HardwareRole);
@@ -277,6 +278,7 @@ void DeviceModel::setDetails(quint8 nodeId, const QByteArray &p)
                            .arg(2000 + u8(2))                      // year
                            .arg(u8(5), 2, 10, QChar('0'))          // hour
                            .arg(u8(6), 2, 10, QChar('0'));         // minute
+        it.flashMb = p.size() >= 8 ? u8(7) : 0;      // old firmware: byte missing
         break;
 
     case 0xA2:                                   // DETAIL_C

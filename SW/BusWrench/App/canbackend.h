@@ -5,7 +5,8 @@
 #include <QString>
 #include <QTimer>
 #include "devicemodel.h"
-
+#include <QMap>
+#include <QPoint>
 
 class QCanBusDevice;
 class QCanBusFrame;
@@ -23,6 +24,7 @@ class QCanBusFrame;
  *   3. Automatically retry the connection when the adapter is unavailable.
  *   4. Receive incoming CAN frames and maintain the RX counter.
  *   5. Expose connection and reception information through Q_PROPERTY.
+ *   6. Read, write and save the sensor parameters of the gauge boards.
  *
  * The class does not contain any UI logic.
  * Communication with the QML frontend is handled through Qt properties
@@ -81,6 +83,37 @@ public:
     void setBitrate(int kbit) { m_bitrate = kbit; }
     Q_INVOKABLE void applyBitrate(int kbit);
 
+    // Last value of the sensor of one gauge board (frame 0x500 + node ID) as named
+    // values: node, valid, value, valueX10, volt, mv, fault, flags, counter, ageMs.
+    // ageMs = milliseconds since the last frame (-1 if none was received).
+    Q_INVOKABLE QVariantMap sensorInfo(int nodeId) const;
+    // Last values of the sensor of one board (about 60 seconds), for the graph.
+    Q_INVOKABLE QVariantList sensorHistory(int nodeId) const;
+
+    // ---- Sensor parameters of a gauge board (filter, fault limits, table) ----
+    // The answers arrive later: the signals sensorParamsChanged() and paramAck()
+    // tell when, and sensorParams() returns what the PC has received so far.
+
+    // Asks the board for all its sensor parameters (the points of the table too).
+    Q_INVOKABLE void readSensorParams(int nodeId);
+    // Asks for one parameter (see CANUPD_PAR_... in can_update_proto.h).
+    Q_INVOKABLE void readParam(int nodeId, int param, int index = 0);
+    // Changes one parameter. The board uses it at once but does NOT save it.
+    Q_INVOKABLE void writeParam(int nodeId, int param, int index, qint64 value);
+    // Sends a whole calibration table: a list of {mv: ..., valueX10: ...}.
+    Q_INVOKABLE void writeTable(int nodeId, const QVariantList &points);
+    // "Save": the board writes all its parameters in the permanent memory.
+    Q_INVOKABLE void saveParams(int nodeId);
+    // "Factory": the board goes back to the factory values and erases the saved ones.
+    Q_INVOKABLE void resetParams(int nodeId);
+    // The parameters received from one board as named values: node, known,
+    // filterMs, lowMv, highMv, tableN, tableComplete and table (a list of
+    // {index, mv, volt, valueX10, value}). A value not received yet is -1.
+    Q_INVOKABLE QVariantMap sensorParams(int nodeId) const;
+    // Writes a text parameter (name or unit): it is cut in pieces of 4 bytes, one
+    // frame each. Too long (in bytes, UTF-8) -> paramAck with status 5.
+    Q_INVOKABLE void writeText(int nodeId, int param, const QString &text);
+
 signals:
     // Emitted whenever the adapter connection status or related information changes.
     void statusChanged();
@@ -93,6 +126,13 @@ signals:
 
     // Answer of a board to an action command: result 0 = ok, 1 = failed.
     void actionResult(int nodeId, int cmd, int result);
+
+    // A sensor parameter of a board has been received: sensorParams() has news.
+    void sensorParamsChanged(int nodeId);
+
+    // Answer of a board to WRITE / SAVE / RESET. status: 0 = ok, 5 = value not valid,
+    // 6 = unknown parameter, 3 = busy (update in progress), 4 = memory error.
+    void paramAck(int nodeId, int cmd, int param, int status);
 
 private:
     // Updates the connection status and notifies the QML interface.
@@ -126,6 +166,49 @@ private:
     int m_bitrate = 500;
     void handleFrame(const QCanBusFrame &f);
     DeviceModel *m_devices = nullptr;
+    // Decodes the sensor frame of one node (see send_sensor_value() in the firmware).
+    void handleSensorFrame(quint8 node, const QByteArray &p);
+
+    // Last sensor frame received from one node.
+    struct SensorData {
+        bool valid = false;        // at least one frame was received
+        int valueX10 = -1;         // value in tenths of the unit (-1 = no valid value yet)
+        int mv = 0;                // voltage at the connector, in millivolts
+        quint8 flags = 0;          // bit0 sensor fault, bit1 low alarm, bit2 high alarm
+        quint8 counter = 0;        // counter of the board (grows at every frame)
+        qint64 lastMs = 0;         // PC time when the frame arrived
+    };
+    QMap<int, SensorData> m_sensor;          // node ID -> last frame
+    QMap<int, QList<double>> m_sensorHist;   // node ID -> last values (10 per second)
+
+    // Sensor parameters received from one board (-1 = not received yet).
+    struct SensorParams {
+        int filterMs = -1;         // moving average time, ms
+        int lowMv = -1;            // fault limit below, mV
+        int highMv = -1;           // fault limit above, mV
+        int nodeNext = -1;         // node ID saved in the board (used from the next boot)
+        QByteArray nameBytes = QByteArray(12, '\0');   // the name, 3 pieces of 4 bytes
+        quint8 nameMask = 0;       // bit i = piece i of the name has arrived
+        QByteArray unitBytes = QByteArray(4, '\0');    // the unit (4 bytes)
+        bool unitOk = false;       // the unit has arrived
+        int decimals = -1;         // digits after the point (-1 = not received yet)
+        int faultMode = -1;        // 0 = "- - -" blinking, 1 = last valid value
+        int alarmEnabled[3] = { -1, -1, -1 };   // per alarm: 0/1 (-1 = not received yet)
+        int alarmThr[3]     = { -1, -1, -1 };   // threshold, tenths
+        int alarmHyst[3]    = { -1, -1, -1 };   // hysteresis, tenths
+        int alarmDelay[3]   = { -1, -1, -1 };   // delay, tenths of a second
+        int alarmStartup    = -1;               // seconds ignored after power on
+        int periodMs = -1;                      // period of the sensor frame (-1 = not received yet)
+        int tableN = -1;           // number of points of the calibration table
+        QMap<int, QPoint> table;   // point number -> (x = mV, y = value x10)
+    };
+    QMap<int, SensorParams> m_params;        // node ID -> its parameters
+
+    // A VALUE answer (0xB0) of a board: stores it and, if it is the number of
+    // points of the table, asks for the points too.
+    void handleParamValue(quint8 node, quint8 param, quint8 index, quint32 value);
+    // An ACK answer (0xB1) of a board to WRITE / SAVE / RESET.
+    void handleParamAck(quint8 node, quint8 cmd, quint8 param, quint8 status);
 };
 
 #endif // CANBACKEND_H
