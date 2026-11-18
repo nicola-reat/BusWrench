@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/BusWrench/">
+    <file alias="Constants.qml">C:/Git/BusWrench/SW/BusWrench/BusWrench/Constants.qml</file>
+    <file alias="EventListModel.qml">C:/Git/BusWrench/SW/BusWrench/BusWrench/EventListModel.qml</file>
+    <file alias="EventListSimulator.qml">C:/Git/BusWrench/SW/BusWrench/BusWrench/EventListSimulator.qml</file>
+  </qresource>
+</RCC>
+

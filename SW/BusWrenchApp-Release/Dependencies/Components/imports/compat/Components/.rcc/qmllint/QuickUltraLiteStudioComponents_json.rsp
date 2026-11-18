@@ -1,0 +1,16 @@
+--bare
+-I
+C:/Git/BusWrench/SW/BusWrenchApp-Release/qml
+-I
+C:/Git/BusWrench/SW/BusWrenchApp-Release/qml/QtQuickUltralite/Studio/Components
+-I
+C:/Git/BusWrench/SW/BusWrenchApp-Release/qml
+-I
+C:/Qt/6.12.0/mingw_64/qml
+--resource
+C:/Git/BusWrench/SW/BusWrenchApp-Release/Dependencies/Components/imports/compat/Components/.qt/rcc/qmake_QtQuickUltralite_Studio_Components.qrc
+--resource
+C:/Git/BusWrench/SW/BusWrenchApp-Release/Dependencies/Components/imports/compat/Components/.qt/rcc/QuickUltraLiteStudioComponents_raw_qml_0.qrc
+C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/compat/Components/ArcItem.qml
+--json
+C:/Git/BusWrench/SW/BusWrenchApp-Release/QuickUltraLiteStudioComponents_qmllint.json

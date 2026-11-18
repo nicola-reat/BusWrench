@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/FlowView/">
+    <file alias="qmldir">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/flowview/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Controls
 import BusWrench
 import QtQuick.Dialogs
+import QtQml.Models
 
 /*
  * OVERVIEW
@@ -1488,7 +1489,7 @@ Window {
     }
 
     // Click on one of the five tabs.
-    Repeater {
+    Instantiator {
         model: [mainScreen.pageConfig.maTab0, mainScreen.pageConfig.maTab1,
                 mainScreen.pageConfig.maTab2, mainScreen.pageConfig.maTab3]
         delegate: Connections {
@@ -1498,7 +1499,7 @@ Window {
     }
 
     // Editing a field marks the page as "not written".
-    Repeater {
+    Instantiator  {
         model: [mainScreen.pageConfig.inFilter, mainScreen.pageConfig.inLow,
                 mainScreen.pageConfig.inHigh, mainScreen.pageConfig.inName,
                 mainScreen.pageConfig.inUnit, mainScreen.pageConfig.inStartup,
@@ -2150,7 +2151,7 @@ Window {
     /* ---------- Configuration page: Display tab ---------- */
 
     // Decimals: 0, 1 or 2.
-    Repeater {
+    Instantiator {
         model: [mainScreen.pageConfig.maDec0, mainScreen.pageConfig.maDec1,
                 mainScreen.pageConfig.maDec2]
         delegate: Connections {
@@ -2163,7 +2164,7 @@ Window {
     }
 
     // On fault: 0 = "- - -" blinking, 1 = last valid value.
-    Repeater {
+    Instantiator  {
         model: [mainScreen.pageConfig.maFm0, mainScreen.pageConfig.maFm1]
         delegate: Connections {
             target: modelData

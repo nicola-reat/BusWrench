@@ -32,6 +32,12 @@ qt_add_executable(${CMAKE_PROJECT_NAME}
     App/nodeconfig.h App/nodeconfig.cpp
 )
 
+# Windows: no console window in the Release version. In Debug the console stays,
+# so the messages of the program (qDebug, QML warnings) can be read.
+if(WIN32 AND NOT CMAKE_BUILD_TYPE STREQUAL "Debug")
+    set_target_properties(${CMAKE_PROJECT_NAME} PROPERTIES WIN32_EXECUTABLE ON)
+endif()
+
 # Icon of the .exe (Windows only)
 if(WIN32)
     target_sources(${CMAKE_PROJECT_NAME} PRIVATE appicon.rc)
@@ -96,3 +102,36 @@ install(TARGETS ${CMAKE_PROJECT_NAME}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
 
+# --------------------------------------------------
+# Deployment: after every build windeployqt copies next to the exe the Qt
+# libraries, the plugins (platforms, canbus, ...) and the QML modules the app
+# uses. So the exe in the build folder starts by double click, without Qt Creator.
+# --------------------------------------------------
+option(DEPLOY_QT_ON_BUILD "Run windeployqt after every build (Windows)" ON)
+
+if(WIN32 AND DEPLOY_QT_ON_BUILD)
+    # windeployqt.exe is in the same folder as qmake.exe of the Qt in use.
+    get_target_property(_qmake_exe Qt6::qmake IMPORTED_LOCATION)
+    get_filename_component(_qt_bin_dir "${_qmake_exe}" DIRECTORY)
+    find_program(WINDEPLOYQT_EXECUTABLE windeployqt
+                 PATHS "${_qt_bin_dir}" NO_DEFAULT_PATH)
+
+    if(WINDEPLOYQT_EXECUTABLE)
+        add_custom_command(TARGET ${CMAKE_PROJECT_NAME} POST_BUILD
+            COMMAND "${WINDEPLOYQT_EXECUTABLE}"
+                    --no-translations
+                    --qmldir "${CMAKE_CURRENT_SOURCE_DIR}"
+                    "$<TARGET_FILE:${CMAKE_PROJECT_NAME}>"
+            COMMENT "windeployqt: copying the Qt libraries next to the exe"
+        )
+    else()
+        message(WARNING "windeployqt not found: the Qt libraries are not copied")
+    endif()
+endif()
+
+# The PCAN-Basic DLL goes next to the exe (the post-build copy above puts it only
+# in the build folder).
+if(WIN32)
+    install(FILES "${PCAN_BASIC_DIR}/Bin/PCANBasic.dll"
+            DESTINATION ${CMAKE_INSTALL_BINDIR})
+endif()

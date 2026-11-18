@@ -1,0 +1,2 @@
+C:/Git/BusWrench/SW/BusWrenchApp-Release/Dependencies/Components/imports/designeffects/.qsb/shaders/innerShadow.frag.qsb: \
+  C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/designeffects/shaders/innerShadow.frag

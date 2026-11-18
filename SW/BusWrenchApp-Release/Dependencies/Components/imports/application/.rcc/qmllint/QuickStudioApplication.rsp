@@ -1,0 +1,11 @@
+--bare
+-I
+C:/Git/BusWrench/SW/BusWrenchApp-Release/qml
+-I
+C:/Git/BusWrench/SW/BusWrenchApp-Release/qml/QtQuick/Studio/Application
+-I
+C:/Git/BusWrench/SW/BusWrenchApp-Release/qml
+-I
+C:/Qt/6.12.0/mingw_64/qml
+--resource
+C:/Git/BusWrench/SW/BusWrenchApp-Release/Dependencies/Components/imports/application/.qt/rcc/qmake_QtQuick_Studio_Application.qrc

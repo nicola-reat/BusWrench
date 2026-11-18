@@ -1,2 +1,0 @@
-C:/Git/BusWrench/GUI/BusWrenchApp-Debug/Dependencies/Components/imports/utils/QuickStudioUtils_autogen/include/../EWIEGA46WW/moc_quickstudiocsvtablemodel.cpp.json
-C:/Git/BusWrench/GUI/BusWrenchApp-Debug/Dependencies/Components/imports/utils/QuickStudioUtils_autogen/include/../EWIEGA46WW/moc_quickstudiofilereader.cpp.json

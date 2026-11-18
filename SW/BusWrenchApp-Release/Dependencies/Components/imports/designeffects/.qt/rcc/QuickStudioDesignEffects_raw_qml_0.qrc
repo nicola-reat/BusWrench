@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuick/Studio/DesignEffects/">
+    <file alias="DesignBackgroundBlurPrivate.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/designeffects/DesignBackgroundBlurPrivate.qml</file>
+    <file alias="DesignDropShadow.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/designeffects/DesignDropShadow.qml</file>
+    <file alias="DesignDropShadowPrivate.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/designeffects/DesignDropShadowPrivate.qml</file>
+    <file alias="DesignEffect.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/designeffects/DesignEffect.qml</file>
+    <file alias="DesignEffectPrivate.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/designeffects/DesignEffectPrivate.qml</file>
+    <file alias="DesignInnerShadow.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/designeffects/DesignInnerShadow.qml</file>
+    <file alias="DesignInnerShadowPrivate.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/designeffects/DesignInnerShadowPrivate.qml</file>
+    <file alias="DesignLayerBlurPrivate.qml">C:/Git/BusWrench/SW/BusWrench/Dependencies/Components/imports/designeffects/DesignLayerBlurPrivate.qml</file>
+  </qresource>
+</RCC>
+
